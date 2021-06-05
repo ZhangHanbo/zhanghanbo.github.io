@@ -99,13 +99,18 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
+<td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
 <td width= "640" >Visual Manipulation Relationship Recognition in Object-stacking Scenes
 <br />
 Pattern Recognition Letters, 2020.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
 <br />
+Visual Manipulation Relationship Network for Autonomous Robotics
+<br />
+IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
+<br />
+<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
 
 <table width= "100" >
 <td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
@@ -152,6 +157,11 @@ IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xinwen Zhou, Xuguang Lan, Jin Li, Zhiqiang Tian, Nanning Zheng.
 <br />
+Fully Convolutional Grasp Detection Network with Oriented Anchor Box
+<br />
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
+<br />
+Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhang, Narming Zheng
 
 <table width= "150" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8734882">PDF</a></td>
@@ -210,48 +220,3 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 </tr>
 </table>
 
-
-
-
-<!-- Pub split line -->
-<table width= "800" >
-<tr>
-<td width= "160" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
-<td width= "640" >Visual Manipulation Relationship Network for Autonomous Robotics
-<br />
-IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
-<br />
-<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
-<br />
-
-<table width= "100" >
-<td width= "50" ><a href="https://ieeexplore.ieee.org/document/8625071">PDF</a></td>
-<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
-</table>
-
-<br />
-</td>
-</tr>
-</table>
-
-
-<!-- Pub split line -->
-<table width= "800" >
-<tr>
-<td width= "160" ><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
-<td width= "640" >Fully Convolutional Grasp Detection Network with Oriented Anchor Box
-<br />
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
-<br />
-Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhang, Narming Zheng
-<br />
-
-<table width= "100" >
-<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8594116">PDF</a></td>
-<td width= "50" ><a href="https://arxiv.org/abs/1803.02209">ArXiv</a></td>
-</table>
-
-<br />
-</td>
-</tr>
-</table>
