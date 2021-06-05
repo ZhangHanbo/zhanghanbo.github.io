@@ -25,37 +25,49 @@ News
 </p>
 
 <p>
-[2021-5] Our INVIGORATE for interactive visual grounding and grasping in clutter has been accepted to RSS 2021.
+<strong>[2021-5]</strong> Our INVIGORATE for interactive visual grounding and grasping in clutter has been accepted to RSS 2021.
 </p>
 
 <p>
-[2021-5] Hindsight Trust Region Policy Optimization has been accepted to IJCAI 2021.
+<strong>[2021-5]</strong> Hindsight Trust Region Policy Optimization has been accepted to IJCAI 2021.
 </p>
 
 <p>
-[2021-2] Our REGNet for end-to-end grasping in clutter with point cloud input has been accepted to ICRA 2021.
+<strong>[2021-2]</strong> Our REGNet for end-to-end grasping in clutter with point cloud input has been accepted to ICRA 2021.
 </p>
 
 <p>
-[2020-11] I won the Special Academic Scholarship (特等学业奖学金) of Xi'an Jiaotong University.
+<strong>[2020-11]</strong> I won the Special Academic Scholarship (特等学业奖学金) of Xi'an Jiaotong University.
 </p>
 
 <p>
-[2020-10] Our team won 3rd in the simulative contest of Open Cloud Robot Table Organization Challenge (OCRTOC), IROS 2020.
+<strong>[2020-10]</strong> Our team won 3rd in the simulative contest of Open Cloud Robot Table Organization Challenge (OCRTOC), IROS 2020.
 </p>
 
 <p>
-[2020-9] Our visual relationship manipulation recognition paper has been accepted to Pattern Recognition Letters.
+<strong>[2020-9]</strong> Our visual relationship manipulation recognition paper has been accepted to Pattern Recognition Letters.
 </p>
 
 <p>
-[2020-2] Our graph-based autonomous tool construction algorithm has been accepted to ICRA 2020.
+<strong>[2020-2]</strong> Our graph-based autonomous tool construction algorithm has been accepted to ICRA 2020.
 </p>
 
 <p>
-[2019-7] THREE papers about robotic grasping have been accepted to IROS 2019.
+<strong>[2019-8]</strong> We won 2rd in the Tri-Co Robot Challenge of World Robot Contest 2019.
 </p>
 
 <p>
-[2019-5] Our real-time robotic grasping algorithm for single-object scenarios has been accepted to IEEE Transactions on Systems, Man, and Cybernetics: Systems.
+<strong>[2019-7]</strong> THREE papers about robotic grasping have been accepted to IROS 2019.
+</p>
+
+<p>
+<strong>[2019-5]</strong> Our real-time robotic grasping algorithm for single-object scenarios has been accepted to IEEE Transactions on Systems, Man, and Cybernetics: Systems.
+</p>
+
+<p>
+<strong>[2018-9]</strong> Our paper of CRF-based visual manipulation relationship detector has been accepted to ROBIO 2018.
+</p>
+
+<p>
+<strong>[2018-8]</strong> Our paper about visual manipulation relationship detection has been accepted to Humanoids 2018.
 </p>
