@@ -69,5 +69,9 @@ News
 </p>
 
 <p>
-<strong>[2018-8]</strong> Our paper about visual manipulation relationship detection has been accepted to Humanoids 2018.
+<strong>[2018-8]</strong> Our VMRN for visual manipulation relationship detection has been accepted to Humanoids 2018.
+</p>
+
+<p>
+<strong>[2018-7]</strong> Our fully convolutional grasp network with oriented anchor box has been accepted to IROS 2018.
 </p>
