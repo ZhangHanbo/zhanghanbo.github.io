@@ -1,7 +1,7 @@
 ---
 layout: work
-title: Publication
-slug: /publication
+title: Work
+slug: /work
 items:
   - title: INVIGORATE: Interactive Visual Grounding and Grasping in Clutter
     image:
