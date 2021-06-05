@@ -186,14 +186,12 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Lipeng Wan, Chenjie Yang, Nanning Zheng.
-
+<br />
 <table width= "150" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967977">PDF</a></td>
 <td width= "50" ><a href="https://arxiv.org/abs/1809.07081">ArXiv</a></td>
 <td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
-
-<br />
 </td>
 </tr>
 </table>
