@@ -20,4 +20,6 @@ profile_picture:
   I graduated from Information Engineering of Xi'an Jiaotong University.
 </p>
 
-#News
+<p style="font-size: x-large; font: bold">
+News
+</p>
