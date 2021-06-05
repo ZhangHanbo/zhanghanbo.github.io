@@ -32,7 +32,7 @@ Robotics: Science and Systems (RSS), 2021.
 <td width= "160" ><img src="/assets/img/work/HTRPO.png" alt="htrpo"></td>
 <td width= "640" >Hindsight Trust Region Policy Optimization
 <br />
-30th International Joint Conference on Artificial Intelligence (IJCAI), 2021.
+International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 <br />
 <strong>Hanbo Zhang</strong>, Site Bai, Xuguang Lan, David Hsu, Nanning Zheng.
 <br />
@@ -50,3 +50,22 @@ Robotics: Science and Systems (RSS), 2021.
 
 
 
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" ><img src="/assets/img/work/regnet.png" alt="regnet"></td>
+<td width= "640" >REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds
+<br />
+International Conference on Robotics and Automation (ICRA), 2021.
+<br />
+Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Tian, Nanning Zheng.
+<br />
+
+<table width= "200" >
+<td width= "50" ><a href="https://arxiv.org/abs/2002.12647">ArXiv</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
