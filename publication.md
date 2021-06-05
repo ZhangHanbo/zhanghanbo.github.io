@@ -8,13 +8,13 @@ items:
       src: /assets/img/work/INVIGORATE.png
       alt: invigorate
     description: Robotics: Science and Systems (RSS), 2021.
-    authors: <strong>Hanbo Zhang*</strong>, Yunfan Lu*, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng. 
+    authors: Hanbo
   - title: Hindsight Trust Region Policy Optimization
     image:
       src: /assets/img/work/sand.png
       alt: sand
     description: 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021.
-    authors: <strong>Hanbo Zhang*</strong>, Site Bai, Xuguang Lan, David Hsu, Nanning Zheng.
+    authors: Hanbo
 ---
 
 <br />
