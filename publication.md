@@ -24,7 +24,7 @@ arXiv preprint arXiv:2104.14118, 2021.
 </table>
 
 
-
+<br />
 
 <!-- Pub split line -->
 <table width= "800" >
@@ -48,7 +48,7 @@ Robotics: Science and Systems (RSS), 2021.
 </tr>
 </table>
 
-
+<br />
 
 <!-- Pub split line -->
 <table width= "800" >
@@ -71,7 +71,7 @@ International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 </tr>
 </table>
 
-
+<br />
 
 
 <!-- Pub split line -->
@@ -95,7 +95,7 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 </table>
 
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
@@ -125,7 +125,7 @@ IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 </table>
 
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
@@ -148,7 +148,7 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
 
 
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
@@ -176,7 +176,7 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 </tr>
 </table>
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
@@ -186,7 +186,6 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Lipeng Wan, Chenjie Yang, Nanning Zheng.
-<br />
 
 <table width= "150" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967977">PDF</a></td>
@@ -199,7 +198,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 </tr>
 </table>
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
@@ -223,7 +222,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 </table>
 
 
-
+<br />
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
