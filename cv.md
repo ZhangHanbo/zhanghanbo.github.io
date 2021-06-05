@@ -1,9 +1,11 @@
 ---
 layout: work
-title: Work
+title: CV
 slug: /work
 ---
 
-This is an example of a "Work" page, displaying your work, your interests, your projects.
+<a href="https://drive.google.com/file/d/1MvXPUjcHKczDjmF1zmRagGdfELzO7S1V/view?usp=sharing">中文简历</a>
+<br />
+<a href="https://drive.google.com/file/d/1wv1cNPQA34bwl8L78PygQdaNJ8jQxnex/view?usp=sharing">English Resume</a>
 <br />
 <br />
