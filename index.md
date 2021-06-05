@@ -23,3 +23,15 @@ profile_picture:
 <p style="font-size: x-large; font: bold">
 News
 </p>
+
+<p>
+2021-5-11 One paper has been accepted by RSS 2021.
+</p>
+
+<p>
+2021-5-1 One paper has been accepted by IJCAI 2021.
+</p>
+
+<p>
+2021-2-26 One paper has been accepted by ICRA 2021.
+</p>
