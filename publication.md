@@ -95,35 +95,6 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 </table>
 
 
-<br />
-<!-- Pub split line -->
-<table width= "800" >
-<tr>
-<td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
-<td width= "640" ><strong>(Journal)</strong> Visual Manipulation Relationship Recognition in Object-stacking Scenes
-<br />
-Pattern Recognition Letters, 2020.
-<br />
-<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
-<br />
-<strong>(Conference)</strong> Visual Manipulation Relationship Network for Autonomous Robotics
-<br />
-IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
-<br />
-<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
-
-<table width= "200" >
-<td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
-<td width= "50" ><a href="https://arxiv.org/abs/1802.08857">ArXiv</a></td>
-<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
-<td width= "50" ><a href="https://www.dropbox.com/s/ff0f4bqw4s1pxa2/VMRD%20V2%20fixed.tar.gz?dl=0">Data</a></td>
-</table>
-
-<br />
-</td>
-</tr>
-</table>
-
 
 <br />
 <!-- Pub split line -->
@@ -147,35 +118,6 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
 </table>
 
 
-
-<br />
-<!-- Pub split line -->
-<table width= "800" >
-<tr>
-<td width= "160" valign="top"><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
-<td width= "640" ><strong>(Journal)</strong> A Real-Time Robotic Grasping Approach With Oriented Anchor Box
-<br />
-IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
-<br />
-<strong>Hanbo Zhang</strong>, Xinwen Zhou, Xuguang Lan, Jin Li, Zhiqiang Tian, Nanning Zheng.
-<br />
-<strong>(Conference)</strong> Fully Convolutional Grasp Detection Network with Oriented Anchor Box
-<br />
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
-<br />
-Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhang, Narming Zheng
-
-<table width= "150" >
-<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8734882">PDF</a></td>
-<td width= "50" ><a href="https://arxiv.org/abs/1809.03873">ArXiv</a></td>
-<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
-</table>
-
-<br />
-</td>
-</tr>
-</table>
-
 <br />
 <!-- Pub split line -->
 <table width= "800" >
@@ -183,7 +125,7 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 <td width= "160" ><img src="/assets/img/work/MultiTask/MultiTask.png" alt="fcgn"></td>
 <td width= "640" >A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes
 <br />
-IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Lipeng Wan, Chenjie Yang, Nanning Zheng.
 <br />
@@ -203,7 +145,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 <td width= "160" ><img src="/assets/img/work/ROIGD/ROIGD.png" alt="fcgn"></td>
 <td width= "640" >ROI-based Robotic Grasp Detection in Object Overlapping Scenes
 <br />
-IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Xinwen Zhou, Zhiqiang Tian, Nanning Zheng.
 <br />
@@ -235,6 +177,67 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 <table width= "100" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
 <td width= "50" ><a href="https://www.dropbox.com/sh/ki4c5gokmzto6z1/AAAlWaKSJncq30RIjdYr6ezaa?dl=0">Data</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
+
+
+
+<br />
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
+<td width= "640" ><strong>(Journal)</strong> Visual Manipulation Relationship Recognition in Object-stacking Scenes
+<br />
+Pattern Recognition Letters, 2020.
+<br />
+<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
+<br />
+<strong>(Conference)</strong> Visual Manipulation Relationship Network for Autonomous Robotics
+<br />
+IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
+<br />
+<strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
+
+<table width= "200" >
+<td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
+<td width= "50" ><a href="https://arxiv.org/abs/1802.08857">ArXiv</a></td>
+<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
+<td width= "50" ><a href="https://www.dropbox.com/s/ff0f4bqw4s1pxa2/VMRD%20V2%20fixed.tar.gz?dl=0">Data</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
+
+
+
+<br />
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" valign="top"><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
+<td width= "640" ><strong>(Journal)</strong> A Real-Time Robotic Grasping Approach With Oriented Anchor Box
+<br />
+IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
+<br />
+<strong>Hanbo Zhang</strong>, Xinwen Zhou, Xuguang Lan, Jin Li, Zhiqiang Tian, Nanning Zheng.
+<br />
+<strong>(Conference)</strong> Fully Convolutional Grasp Detection Network with Oriented Anchor Box
+<br />
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
+<br />
+Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhang, Narming Zheng
+
+<table width= "150" >
+<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8734882">PDF</a></td>
+<td width= "50" ><a href="https://arxiv.org/abs/1809.03873">ArXiv</a></td>
+<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
 
 <br />
