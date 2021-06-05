@@ -25,14 +25,37 @@ News
 </p>
 
 <p>
-2021-5-11 One paper has been accepted by RSS 2021.
+[2021-5] Our INVIGORATE for interactive visual grounding and grasping in clutter has been accepted to RSS 2021.
 </p>
 
 <p>
-2021-5-1 One paper has been accepted by IJCAI 2021.
+[2021-5] Hindsight Trust Region Policy Optimization has been accepted to IJCAI 2021.
 </p>
 
 <p>
-2021-2-26 One paper has been accepted by ICRA 2021.
+[2021-2] Our REGNet for end-to-end grasping in clutter with point cloud input has been accepted to ICRA 2021.
 </p>
 
+<p>
+[2020-11] I won the Special Academic Scholarship (特等学业奖学金) of Xi'an Jiaotong University.
+</p>
+
+<p>
+[2020-10] Our team won 3rd in the simulative contest of Open Cloud Robot Table Organization Challenge (OCRTOC), IROS 2020.
+</p>
+
+<p>
+[2020-9] Our visual relationship manipulation recognition paper has been accepted to Pattern Recognition Letters.
+</p>
+
+<p>
+[2020-2] Our graph-based autonomous tool construction algorithm has been accepted to ICRA 2020.
+</p>
+
+<p>
+[2019-7] THREE papers about robotic grasping have been accepted to IROS 2019.
+</p>
+
+<p>
+[2019-5] Our real-time robotic grasping algorithm for single-object scenarios has been accepted to IEEE Transactions on Systems, Man, and Cybernetics: Systems.
+</p>
