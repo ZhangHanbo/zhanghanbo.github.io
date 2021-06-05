@@ -13,7 +13,9 @@ profile_picture:
   Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>. My current 
   research interests include interactive robotic manipulation in clutter and 
   reinforcement learning.
-  
+</p>
+
+<p>
   Before I joined the group of Prof. <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>,
   I graduated from Information Engineering of Xi'an Jiaotong University.
 </p>
