@@ -100,13 +100,13 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 <table width= "800" >
 <tr>
 <td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
-<td width= "640" >(Journal) Visual Manipulation Relationship Recognition in Object-stacking Scenes
+<td width= "640" ><strong>(Journal)</strong> Visual Manipulation Relationship Recognition in Object-stacking Scenes
 <br />
 Pattern Recognition Letters, 2020.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
 <br />
-(Conf) Visual Manipulation Relationship Network for Autonomous Robotics
+<strong>(Conference)</strong> Visual Manipulation Relationship Network for Autonomous Robotics
 <br />
 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <br />
@@ -151,13 +151,13 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
 <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
-<td width= "640" >(Journal) A Real-Time Robotic Grasping Approach With Oriented Anchor Box
+<td width= "640" ><strong>(Journal)</strong> A Real-Time Robotic Grasping Approach With Oriented Anchor Box
 <br />
 IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
 <br />
 <strong>Hanbo Zhang</strong>, Xinwen Zhou, Xuguang Lan, Jin Li, Zhiqiang Tian, Nanning Zheng.
 <br />
-(Conf) Fully Convolutional Grasp Detection Network with Oriented Anchor Box
+<strong>(Conference)</strong> Fully Convolutional Grasp Detection Network with Oriented Anchor Box
 <br />
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
 <br />
