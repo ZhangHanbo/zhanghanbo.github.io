@@ -185,6 +185,27 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 </table>
 
 
+<br />
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" ><img src="/assets/img/work/VMRN_CRF/CRF_VMRN.png" alt="tog"></td>
+<td width= "640" >Visual Manipulation Relationship Detection with Fully Connected CRFs for Autonomous Robotic Grasp
+<br />
+IEEE International Conference on Robotics and Biomimetics (ROBIO), 2018.
+<br />
+Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Xinwen Zhou and Nanning Zheng.
+<br />
+
+<table width= "100" >
+<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8665225">PDF</a></td>
+</table>
+
+</td>
+</tr>
+</table>
+
+
 
 <br />
 <!-- Pub split line -->
