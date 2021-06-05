@@ -1,9 +1,9 @@
 ---
 layout: work
-title: Work
+title: Research
 slug: /work
 ---
 
-This is an example of a "Work" page, displaying your work, your interests, your projects.
+I will update my research progress here. COMING SOON.
 <br />
 <br />
