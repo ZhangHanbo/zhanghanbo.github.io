@@ -220,3 +220,24 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
 </tr>
 </table>
 
+
+
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" ><img src="/assets/img/work/TOG/TOG.png" alt="tog"></td>
+<td width= "640" >Task-oriented grasping in object stacking scenes with CRF-based semantic model
+<br />
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
+<br />
+Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
+<br />
+
+<table width= "150" >
+<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
