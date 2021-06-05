@@ -19,8 +19,6 @@ arXiv preprint arXiv:2104.14118, 2021.
 <td width= "50" ><a href="https://arxiv.org/abs/2104.14118">ArXiv</a></td>
 <td width= "50" ><a href="https://bit.ly/3vCUgQq">Data</a></td>
 </table>
-
-<br />
 </td>
 </tr>
 </table>
@@ -170,8 +168,56 @@ IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
+<td width= "160" ><img src="/assets/img/work/MultiTask/MultiTask.png" alt="fcgn"></td>
+<td width= "640" >A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes
+<br />
+IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
+<br />
+<strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Lipeng Wan, Chenjie Yang, Nanning Zheng.
+<br />
+
+<table width= "150" >
+<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967977">PDF</a></td>
+<td width= "50" ><a href="https://arxiv.org/abs/1809.07081">ArXiv</a></td>
+<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
+
+
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" ><img src="/assets/img/work/ROIGD/ROIGD.png" alt="fcgn"></td>
+<td width= "640" >ROI-based Robotic Grasp Detection in Object Overlapping Scenes
+<br />
+IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.
+<br />
+<strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Xinwen Zhou, Zhiqiang Tian, Nanning Zheng.
+<br />
+
+<table width= "150" >
+<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967869">PDF</a></td>
+<td width= "50" ><a href="https://arxiv.org/abs/1808.10313">ArXiv</a></td>
+<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
+</table>
+
+<br />
+</td>
+</tr>
+</table>
+
+
+
+
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
 <td width= "160" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
-<td width= "640" >Visual manipulation relationship network for autonomous robotics
+<td width= "640" >Visual Manipulation Relationship Network for Autonomous Robotics
 <br />
 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <br />
@@ -179,7 +225,7 @@ IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <br />
 
 <table width= "100" >
-<td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
+<td width= "50" ><a href="https://ieeexplore.ieee.org/document/8625071">PDF</a></td>
 <td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
 
