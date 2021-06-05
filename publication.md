@@ -112,9 +112,11 @@ IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
 
-<table width= "100" >
+<table width= "200" >
 <td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
+<td width= "50" ><a href="https://arxiv.org/abs/1802.08857">ArXiv</a></td>
 <td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
+<td width= "50" ><a href="https://www.dropbox.com/s/ff0f4bqw4s1pxa2/VMRD%20V2%20fixed.tar.gz?dl=0">Data</a></td>
 </table>
 
 <br />
@@ -233,8 +235,9 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 <br />
 
-<table width= "150" >
+<table width= "100" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
+<td width= "50" ><a href="https://www.dropbox.com/sh/ki4c5gokmzto6z1/AAAlWaKSJncq30RIjdYr6ezaa?dl=0">Data</a></td>
 </table>
 
 <br />
