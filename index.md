@@ -19,3 +19,5 @@ profile_picture:
   Before I joined the group of Prof. <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>,
   I graduated from Information Engineering of Xi'an Jiaotong University.
 </p>
+
+#News
