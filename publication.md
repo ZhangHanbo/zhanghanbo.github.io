@@ -4,6 +4,9 @@ title: Work
 slug: /work
 ---
 
-This is an example of a "Work" page, displaying your work, your interests, your projects.
+INVIGORATE: Interactive Visual Grounding and Grasping in Clutter.
 <br />
+<strong>Hanbo Zhang</strong>, Yunfan Lu, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng.
 <br />
+
+
