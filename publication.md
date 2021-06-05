@@ -7,8 +7,8 @@ slug: /work
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
-<td width= "640" >REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter
+<td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+<td width= "640" valign="top">REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter
 <br />
 arXiv preprint arXiv:2104.14118, 2021.
 <br />
@@ -29,8 +29,8 @@ arXiv preprint arXiv:2104.14118, 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/INVIGORATE.png" alt="invigorate"></td>
-<td width= "640" >INVIGORATE: Interactive Visual Grounding and Grasping in Clutter
+<td width= "160" valign="top"><img src="/assets/img/work/INVIGORATE.png" alt="invigorate"></td>
+<td width= "640" valign="top">INVIGORATE: Interactive Visual Grounding and Grasping in Clutter
 <br />
 Robotics: Science and Systems (RSS), 2021.
 <br />
@@ -53,8 +53,8 @@ Robotics: Science and Systems (RSS), 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/HTRPO.png" alt="htrpo"></td>
-<td width= "640" >Hindsight Trust Region Policy Optimization
+<td width= "160" valign="top"><img src="/assets/img/work/HTRPO.png" alt="htrpo"></td>
+<td width= "640" valign="top">Hindsight Trust Region Policy Optimization
 <br />
 International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 <br />
@@ -77,8 +77,8 @@ International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/regnet.png" alt="regnet"></td>
-<td width= "640" >REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds
+<td width= "160" valign="top"><img src="/assets/img/work/regnet.png" alt="regnet"></td>
+<td width= "640" valign="top">REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds
 <br />
 International Conference on Robotics and Automation (ICRA), 2021.
 <br />
@@ -100,8 +100,8 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/ToolConstruction/ToolConstruction.png" alt="fcgn"></td>
-<td width= "640" >Autonomous Tool Construction with Gated Graph Neural Network
+<td width= "160" valign="top"><img src="/assets/img/work/ToolConstruction/ToolConstruction.png" alt="fcgn"></td>
+<td width= "640" valign="top">Autonomous Tool Construction with Gated Graph Neural Network
 <br />
 IEEE International Conference on Robotics and Automation (ICRA), 2020.
 <br />
@@ -122,8 +122,8 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/MultiTask/MultiTask.png" alt="fcgn"></td>
-<td width= "640" >A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes
+<td width= "160" valign="top"><img src="/assets/img/work/MultiTask/MultiTask.png" alt="fcgn"></td>
+<td width= "640" valign="top">A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes
 <br />
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
 <br />
@@ -142,8 +142,8 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/ROIGD/ROIGD.png" alt="fcgn"></td>
-<td width= "640" >ROI-based Robotic Grasp Detection in Object Overlapping Scenes
+<td width= "160" valign="top"><img src="/assets/img/work/ROIGD/ROIGD.png" alt="fcgn"></td>
+<td width= "640" valign="top">ROI-based Robotic Grasp Detection in Object Overlapping Scenes
 <br />
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
 <br />
@@ -151,9 +151,9 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 <br />
 
 <table width= "150" >
-<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967869">PDF</a></td>
-<td width= "50" ><a href="https://arxiv.org/abs/1808.10313">ArXiv</a></td>
-<td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
+<td width= "50" valign="top"><a href="https://ieeexplore.ieee.org/abstract/document/8967869">PDF</a></td>
+<td width= "50" valign="top"><a href="https://arxiv.org/abs/1808.10313">ArXiv</a></td>
+<td width= "50" valign="top"><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
 
 <br />
@@ -166,8 +166,8 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/TOG/TOG.png" alt="tog"></td>
-<td width= "640" >Task-oriented grasping in object stacking scenes with CRF-based semantic model
+<td width= "160" valign="top"><img src="/assets/img/work/TOG/TOG.png" alt="tog"></td>
+<td width= "640" valign="top">Task-oriented grasping in object stacking scenes with CRF-based semantic model
 <br />
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
 <br />
@@ -175,8 +175,8 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 <br />
 
 <table width= "100" >
-<td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
-<td width= "50" ><a href="https://www.dropbox.com/sh/ki4c5gokmzto6z1/AAAlWaKSJncq30RIjdYr6ezaa?dl=0">Data</a></td>
+<td width= "50" valign="top"><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
+<td width= "50" valign="top"><a href="https://www.dropbox.com/sh/ki4c5gokmzto6z1/AAAlWaKSJncq30RIjdYr6ezaa?dl=0">Data</a></td>
 </table>
 
 <br />
@@ -189,7 +189,7 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" ><img src="/assets/img/work/VMRN_CRF/CRF_VMRN.png" alt="tog"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/VMRN_CRF/CRF_VMRN.png" alt="tog"></td>
 <td width= "640" valign="top">Visual Manipulation Relationship Detection with Fully Connected CRFs for Autonomous Robotic Grasp
 <br />
 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2018.
@@ -212,7 +212,7 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Xinwen Zhou and Nanning
 <table width= "800" >
 <tr>
 <td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
-<td width= "640" ><strong>(Journal)</strong> Visual Manipulation Relationship Recognition in Object-stacking Scenes
+<td width= "640" valign="top"><strong>(Journal)</strong> Visual Manipulation Relationship Recognition in Object-stacking Scenes
 <br />
 Pattern Recognition Letters, 2020.
 <br />
@@ -243,7 +243,7 @@ IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
-<td width= "640" ><strong>(Journal)</strong> A Real-Time Robotic Grasping Approach With Oriented Anchor Box
+<td width= "640" valign="top"><strong>(Journal)</strong> A Real-Time Robotic Grasping Approach With Oriented Anchor Box
 <br />
 IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
 <br />
