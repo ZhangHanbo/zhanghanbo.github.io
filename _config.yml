@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Zhang Hanbo's homepage.
 baseurl: "" # the subpath of the site
 url: "https://zhanghanbo.github.io" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpg
+og_image: /assets/img/profile-pic.jpeg
 
 header:
   pages:
@@ -21,8 +21,8 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: zhanghanbo163{at}gmail{dot}com
-      link: mailto:zhanghanbo163{at}gmail{dot}com
+      value: zhanghanbo163@gmail.com
+      link: mailto:zhanghanbo163@gmail.com
 #    - name: WeChat
 #      value: YourWeChatUsername
 #      link: "#"
@@ -36,7 +36,7 @@ footer:
       link: https://www.linkedin.com/in/%E7%BF%B0%E5%8D%9A-%E5%BC%A0-2754551a2/
     - name: GitHub
       link: http://github.com/ZhangHanbo
-    - name: Google Scholar
+    - name: Scholar
       link: https://scholar.google.com/citations?user=1qfEEwsAAAAJ&hl=zh-CN
 
 # Build settings
