@@ -11,7 +11,7 @@ slug: /work
 <br />
 Robotics: Science and Systems (RSS), 2021.
 <br />
-<strong>Hanbo Zhang</strong>, Yunfan Lu, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng.
+<strong>Hanbo Zhang*</strong>, Yunfan Lu*, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng.
 <br />
 
 <table width= "210" >
