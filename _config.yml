@@ -1,44 +1,43 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: Zhang Hanbo's homepage.
 description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
-baseurl: "/bay" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
+  Zhang Hanbo's homepage.
+baseurl: "" # the subpath of the site
+url: "https://zhanghanbo.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
 
 header:
   pages:
-    - name: Home
+    - name: About
       slug: /
-    - name: Work
+    - name: Publication
+    - name: Research
+    - name: CV
     - name: Blog
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      value: zhanghanbo163{at}gmail{dot}com
+      link: mailto:zhanghanbo163{at}gmail{dot}com
+#    - name: WeChat
+#      value: YourWeChatUsername
+#      link: "#"
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+#    - name: Twitter
+#      link: http://twitter.com/YourTwitterUsername
+#      username: "@YourTwitterUsername"
+#    - name: Facebook
+#      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/%E7%BF%B0%E5%8D%9A-%E5%BC%A0-2754551a2/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: http://github.com/ZhangHanbo
+    - name: Google Scholar
+      link: https://scholar.google.com/citations?user=1qfEEwsAAAAJ&hl=zh-CN
 
 # Build settings
 markdown: kramdown
