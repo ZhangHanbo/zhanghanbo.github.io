@@ -29,7 +29,7 @@ arXiv preprint arXiv:2104.14118, 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/INVIGORATE.png" alt="invigorate"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/INVIGORATE/INVIGORATE.png" alt="invigorate"></td>
 <td width= "640" valign="top">INVIGORATE: Interactive Visual Grounding and Grasping in Clutter
 <br />
 Robotics: Science and Systems (RSS), 2021.
@@ -43,7 +43,6 @@ Robotics: Science and Systems (RSS), 2021.
 <td width= "50" ><a href="https://drive.google.com/file/d/1YpuczATq3yA6FHwA7WoSqQNDGpIKzzfU/view">Demo</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -53,7 +52,7 @@ Robotics: Science and Systems (RSS), 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/HTRPO.png" alt="htrpo"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/HTRPO/HTRPO.png" alt="htrpo"></td>
 <td width= "640" valign="top">Hindsight Trust Region Policy Optimization
 <br />
 International Joint Conference on Artificial Intelligence (IJCAI), 2021.
@@ -66,7 +65,6 @@ International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 <td width= "50" ><a href="https://github.com/HTRPOCODES/HTRPO-v2">Code</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -77,7 +75,7 @@ International Joint Conference on Artificial Intelligence (IJCAI), 2021.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/regnet.png" alt="regnet"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/REGNet/regnet.png" alt="regnet"></td>
 <td width= "640" valign="top">REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds
 <br />
 International Conference on Robotics and Automation (ICRA), 2021.
@@ -89,7 +87,6 @@ Binglei Zhao, <strong>Hanbo Zhang</strong>, Xuguang Lan, Haoyu Wang, Zhiqiang Ti
 <td width= "50" ><a href="https://arxiv.org/abs/2002.12647">ArXiv</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -112,7 +109,6 @@ Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/9197285/">PDF</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -156,7 +152,6 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 <td width= "50" valign="top"><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -173,13 +168,11 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019
 <br />
 Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng.
 <br />
-
 <table width= "100" >
 <td width= "50" valign="top"><a href="https://ieeexplore.ieee.org/abstract/document/8967992">PDF</a></td>
 <td width= "50" valign="top"><a href="https://www.dropbox.com/sh/ki4c5gokmzto6z1/AAAlWaKSJncq30RIjdYr6ezaa?dl=0">Data</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -196,7 +189,6 @@ IEEE International Conference on Robotics and Biomimetics (ROBIO), 2018.
 <br />
 Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Xinwen Zhou and Nanning Zheng.
 <br />
-
 <table width= "100" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8665225">PDF</a></td>
 </table>
@@ -223,7 +215,7 @@ Pattern Recognition Letters, 2020.
 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <br />
 <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
-
+<br />
 <table width= "200" >
 <td width= "50" ><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865520303445">PDF</a></td>
 <td width= "50" ><a href="https://arxiv.org/abs/1802.08857">ArXiv</a></td>
@@ -231,7 +223,6 @@ IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), 2018.
 <td width= "50" ><a href="https://www.dropbox.com/s/ff0f4bqw4s1pxa2/VMRD%20V2%20fixed.tar.gz?dl=0">Data</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
@@ -254,14 +245,13 @@ IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019.
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
 <br />
 Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhang, Narming Zheng
-
+<br />
 <table width= "150" >
 <td width= "50" ><a href="https://ieeexplore.ieee.org/abstract/document/8734882">PDF</a></td>
 <td width= "50" ><a href="https://arxiv.org/abs/1809.03873">ArXiv</a></td>
 <td width= "50" ><a href="https://github.com/ZhangHanbo/Visual-Manipulation-Relationship-Network-Pytorch">Code</a></td>
 </table>
 
-<br />
 </td>
 </tr>
 </table>
