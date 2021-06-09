@@ -11,7 +11,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 #### Table of Contents
 1. [Abtract](#Abtract)
-5. [Discussion](#Discussion)
+2. [Discussion](#Discussion)
 
 #### Abtract
 
