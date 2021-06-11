@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Brief Introduction to MMDetection"
-date:   2021-06-06 18:00:40
+date:   2021-06-08 18:00:40
 blurb: ""
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
