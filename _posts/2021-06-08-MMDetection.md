@@ -26,6 +26,8 @@ og_image: /assets/img/content/post-example/Banner.jpg
         * [roi-head](#roi-head)
         * [dense-head](#dense-head)
 4. [Config](#Config)
+5. [My Manuscipts](#My Manuscripts)
+    * [Weights Initialization](#Weights Initialization)
     
 
 #### Abtract
@@ -69,6 +71,33 @@ Module中定义了目前主流的视觉检测算法的各个模块。可以理�
 当我们想训练物体检测器时，只需要从这个积木库中取出合适的部件拼到一起，即可获取一个能够在标准数据集上训练和测试的物体检测模型。
 在MMDetection中，所有的模块都会被注册到相应的Registry对象里边。
 在希望调用改模块时，只需要调用对应的Registry对象，输入一个配置字典，即可返回对应的实例化模块。
+
+#### Config
+
+MMDetection中所有的配置文件都定义了一个python字典。
+该字典是一个层级字典，其层级与网络结构（或其他构件如数据集等）一一对应。
+特定层级字典的键值即为初始化对应网络结构或构件的__init__()函数的参数列表。
+这样做的一个很大的好处就在于，只需要读字典，就能够比较准确地推断出整个模型包含的所有信息。
+
+#### My Manuscripts
+
+在这一章节我将详细记录一些在写代码过程中发现的觉得有意思的点，以防之后忘记。
+
+##### Weights Initialization
+
+在MMDetection中，初始化模型权重（包括读取预训练权重）的工作是由底层的MMCV完成的。
+特别地，如果希望读取预训练权重，首先需要在config文件中指定pretrained参数。
+在程序中，权重初始化是通过module内一个名为init\_cfg的属性完成的。
+init\_cfg和其他配置一样，也是一个字典，典型上必须包含type字段。
+其他字段由type决定。
+如需要读取预训练权重时，需要指定type="Pretrained", checkpoint=your\_pretrained_path。
+如需要使用Kaiming initialization，则type='Kaiming', layer=layer\_type\_you\_want\_to\_initialize
+
+##### Ground Truth Labels in Assign Result
+
+与之前的认知不同，在MMDetection的Assign result里，类别是以0为开始的，背景被表示为-1. 
+因此在训练网络时，所有的label值会被加1.
+
 
 #### Footnote
 [^1]: https://openmmlab.com/.
