@@ -9,7 +9,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <img src="{{ "/assets/img/blog/MMDetection/mmdet-logo.png" | absolute_url }}" alt="mmdetection-logo" class="post-pic"/>
 <br />
 
-# Table of Contents
+### Table of Contents
 1. [Abtract](#Abtract)
 2. [Framework](#Framework)
 3. [Modules](#Modules)
@@ -30,7 +30,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Weights Initialization](#Weights Initialization)
     
 
-# Abtract
+### Abtract
 
 本篇将记录我对于MMDetection的简单理解。
 MMDetection是由港中文组织开发的一个开源深度检测框架。
@@ -39,7 +39,7 @@ MMDetection是由港中文组织开发的一个开源深度检测框架。
 最重要的是支持的算法种类非常多，给检测人带来了非常方便易用的一个框架体系。
 此外，除了MMDetection外，相同系列的其他框架如MMClassification, MMPose等也分别在各自的视觉领域有相关的开源工程[^1]。
 
-# Framework
+### Framework
 
 MMDetection结构非常简练，和已有的开源物体检测算法框架高度相似，但是却进行了非常完善的模块化设计。
 其结构主要分为如下部分：
@@ -62,11 +62,7 @@ MMDetection结构非常简练，和已有的开源物体检测算法框架高度
 调用Runner完成网络的训练。
 ```
 
-
-
-# Modules
-
-## mmcv
+### mmcv
 
 MMCV可以说是包圆了所有MMDetection的外围工作。包括：
 1. 从配置文件映射到具体的网络结构（Registry机制）：每个Registry可以理解为一个模块库。
@@ -79,25 +75,25 @@ MMCV可以说是包圆了所有MMDetection的外围工作。包括：
 当需要训练或者测试模型时，可以通过初始化一个Runner，并配置好相关的Runner设置，通过Runner中的Hook机制，就能够精准的控制从拿到数据数据集后到获取最终的输出前的一系列操作。
 比如，在每个Epoch前要做什么，后边要做什么，每个Iteration前要做什么，后要做什么等等。
 
-## Modules
+### Modules
 
 Module中定义了目前主流的视觉检测算法的各个模块。可以理解为一个积木库。
 当我们想训练物体检测器时，只需要从这个积木库中取出合适的部件拼到一起，即可获取一个能够在标准数据集上训练和测试的物体检测模型。
 在MMDetection中，所有的模块都会被注册到相应的Registry对象里边。
 在希望调用改模块时，只需要调用对应的Registry对象，输入一个配置字典，即可返回对应的实例化模块。
 
-# Config
+### Config
 
 MMDetection中所有的配置文件都定义了一个python字典。
 该字典是一个层级字典，其层级与网络结构（或其他构件如数据集等）一一对应。
 特定层级字典的键值即为初始化对应网络结构或构件的__init__()函数的参数列表。
 这样做的一个很大的好处就在于，只需要读字典，就能够比较准确地推断出整个模型包含的所有信息。
 
-# My Manuscripts
+### My Manuscripts
 
 在这一章节我将详细记录一些在写代码过程中发现的觉得有意思的点，以防之后忘记。
 
-## Weights Initialization
+#### Weights Initialization
 
 在MMDetection中，初始化模型权重（包括读取预训练权重）的工作是由底层的MMCV完成的。
 在程序中，权重初始化是通过module内一个名为init_cfg的属性完成的。
@@ -117,7 +113,7 @@ init_cfg和其他配置一样，也是一个字典，其必须包含type字段�
 
 使用init_cfg的注意事项：
 
-##### 一般来说，使用init_cfg需要指定layer字段，以指定初始化的层类型。
+一般来说，使用init_cfg需要指定layer字段，以指定初始化的层类型。
 如：
 ```
 import torch.nn as nn
@@ -143,7 +139,7 @@ init_cfg = [dict(type='Constant', layer='Conv1d', val=1),
 initialize(model, init_cfg)
 ```
 
-##### 如需对特定层进行初始化，需使用override参数。
+如需对特定层进行初始化，需使用override参数。
 
 如：
 ```
@@ -156,11 +152,11 @@ init_cfg = dict(type='Constant', layer=['Conv1d','Conv2d'], val=1, bias=2,
 initialize(model, init_cfg)
 ```
 
-##### 如果layer字段为None，则只有override中指定的层会被初始化。且初始化方法由init_cfg中的类型和参数决定，override中的初始化参数会被忽略。
+如果layer字段为None，则只有override中指定的层会被初始化。且初始化方法由init_cfg中的类型和参数决定，override中的初始化参数会被忽略。
 
-##### 如果layer和override都是None，则不会有任何层被初始化。
+如果layer和override都是None，则不会有任何层被初始化。
 
-##### 使用预训练模型初始化时，需指定checkpoint参数。此外，可通过指定prefix参数只初始化特定前缀的层。
+使用预训练模型初始化时，需指定checkpoint参数。此外，可通过指定prefix参数只初始化特定前缀的层。
 
 如：
 ```
@@ -182,7 +178,7 @@ init_cfg = dict(type='Pretrained',
 initialize(model, init_cfg)
 ```
 
-##### 使用mmcv中的BaseModule, Sequential, ModuleList及其子类时，可通过传入init_cfg参数，并调用其init_weights进行初始化。
+使用mmcv中的BaseModule, Sequential, ModuleList及其子类时，可通过传入init_cfg参数，并调用其init_weights进行初始化。
 
 如：
 ```
@@ -207,11 +203,11 @@ model.init_weights()
 
 详情：https://mmcv.readthedocs.io/en/latest/cnn.html
 
-## Ground Truth Labels in Assign Result
+#### Ground Truth Labels in Assign Result
 
 与之前的认知不同，在MMDetection的Assign result里，类别是以0为开始的，背景被表示为-1. 
 因此在训练网络时，所有的label值会被加1.
 
 
-# Footnote
+### Footnote
 [^1]: https://openmmlab.com/.
