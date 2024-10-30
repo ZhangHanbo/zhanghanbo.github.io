@@ -2,25 +2,38 @@
 <html>
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
-
+<head>
+    <style>
+        .page-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .profile-block {
+            width: 100%;
+            max-width: 800px; /* Adjust max-width as needed */
+            text-align: center;
+            margin-bottom: 20px; /* Space between profile and content */
+        }
+        .profilepic {
+            width: 150px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 50%;
+        }
+        .content-block {
+            width: 100%;
+            max-width: 800px; /* Adjust max-width as needed */
+        }
+    </style>
+</head>
+<body>
     <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-          <img
-            src="{{ page.profile_picture.src | absolute_url }}"
-            alt="{{ page.profile_picture.alt }}"
-            class="profilepic"
-          />
-
-          {{ content }}
+        <div class="wrapper">
+            <div class="content-block">
+                {{ content }}
+            </div>
         </div>
-      </div>
     </div>
-
-    {% include footer.html %}
-
-    {% include foot.html %}
-  </body>
+</body>
 </html>
