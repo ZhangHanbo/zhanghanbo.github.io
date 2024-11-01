@@ -350,3 +350,51 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 </td>
 </tr>
 </table> -->
+
+<h1 class="page-heading">Mentorship</h1>
+
+<table width="1000" align="center" cellspacing="5">
+  <tr>
+    <td width="150" align="left">
+      <a href="https://www.researchgate.net/scientific-contributions/Chenjie-Yang-2147422548">Chenjie Yang</a>
+    </td>
+    <td width="350" align="left">ByteDance, Shanghai</td>
+    <td width="150" align="left">
+      <a href="https://scholar.google.com/citations?user=gAY-cIQAAAAJ&hl=zh-CN">Binglei Zhao</a>
+    </td>
+    <td width="350" align="left">JD, Beijing</td>
+  </tr>
+  <tr>
+    <td align="left">
+      <a href="https://www.researchgate.net/scientific-contributions/Han-Wang-2189056994">Han Wang</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">Deyu Yang</td>
+    <td align="left">SenseTime, Shanghai</td>
+  </tr>
+  <tr>
+    <td align="left">
+      <a href="https://scholar.google.com/citations?user=laOWyTQAAAAJ">Xinghang Li</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">Jie Xu</td>
+    <td align="left">ByteDance, Beijing</td>
+  </tr>
+  <tr>
+    <td align="left">
+      <a href="https://scholar.google.ca/citations?user=s0KcXmgAAAAJ&hl=en">Shiguang Sun</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">
+      <a href="https://scholar.google.com.hk/citations?user=RPw-LX8AAAAJ&hl=zh-CN">Chengzhong Ma</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+  </tr>
+</table>
+<br />
+
+<h1 class="page-heading">Professional Activities</h1>
+
+<strong>Journal Reviewer</strong>: IJRR, TASE, AURO, TNNLS, TSMC, RAL
+<br />
+<strong>Conference Reviewer</strong>: RSS, ICRA, IROS, AAMAS
