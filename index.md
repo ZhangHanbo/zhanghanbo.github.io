@@ -8,6 +8,7 @@ profile_picture:
 <br />
 <br />
 
+
 <table width= "800" align="center">
 <tr>
 <td width= "800" valign="top" align="center"><img src="/assets/img/profile-pic@2x.png" alt="website picture" width="250" style="margin-bottom: 30px;"></td>
@@ -49,20 +50,16 @@ profile_picture:
 <td width= "800" valign="top" align="center">Visiting PhD Student @ <strong>National University of Singapore</strong></td>
 </tr>
 
+
 <tr>
 <td width= "800" valign="top" halign="center" style="padding-top: 25px" >
-  I am a robotics researcher working on long-horizon interactive manipulation following natural language
-  instructions. I have devoted efforts to topics including robotic grasping system, human-robot interaction and disambiguation, 
-  object relationship detection for safe manipulation, reinforcement learning in the past several years, to develop robust 
-  and language-driven robotic manipulation systems facing daily cluttered scenes. Currently, I am working on task and motion planning, 
-  to enable long-horizon reasoning both symbolically and geometrically. 
 
   <br />
   <br />
 
   I am currently a Postdoctoral Research Fellow in National University of Singapore working with 
   Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>. 
-  Previously, I spent around 2 years working as a robotics researcher in ByteDance Research.
+  Previously, I spent around 2 years working as a robotics researcher in ByteDance Research, working closely with <a href="https://www.taokong.org/">Tao Kong</a>.
   Before that, I graduated as a PhD in Control Science and Engineering in Xi'an Jiaotong 
   University, Xi’an, China, in 2022, under the supervision of Prof. 
   <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>.
@@ -70,25 +67,54 @@ profile_picture:
   <br />
   <br />
 
-  <strong>Research Keywords</strong>: Language-Driven Robotic Manipulation; Human-Robot Interaction; Task and Motion Planning.
+<strong style="color: red;">We are recruiting interns working on human-robot interaction and uncertainty-aware planning for robotics! Drop me an email if you are interested.</strong>
+
+
+  <br />
+  <br />
+
+  <strong>Research Keywords</strong>: Long-horizon Interactive Manipulation; Human-Robot Interaction; Robot Grasping System 
 
 </td>
 </tr>
 </table>
 
 
+
+
 <br />
 <br />
 
-<h1 class="page-heading"> Selected Publications </h1>
+<h1 class="page-heading"> Recent Works </h1>
 
 <p>[<a href="https://scholar.google.com/citations?user=1qfEEwsAAAAJ&hl=zh-CN">Full Publication List</a>]</p>
 <p>&dagger; Corresponding Author, * Co-first Author</p>
 
+
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+<td width= "160" valign="top"><img src="/assets/gifs/gr2.gif" alt="GR2"></td>
+<td width= "640" valign="top"><strong>GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation</strong>
+<br />
+Robotics Research Team, ByteDance Research, Tech. Report, 2024
+<br />
+
+<table width= "100" >
+<td width= "50" ><a href="https://arxiv.org/abs/2410.06158">ArXiv</a></td>
+<td width= "50" ><a href="https://gr2-manipulation.github.io/">Website</a></td>
+<td width= "50" ><a href="https://www.youtube.com/watch?v=FHH0r_QUmyo">Video</a></td>
+</table>
+</td>
+</tr>
+</table>
+
+<br />
+
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
+<td width= "160" valign="top"><img src="/assets/gifs/tio_gif.gif" alt="TiO"></td>
 <td width= "640" valign="top"><strong>Towards Unified Interactive Visual Grounding in The Wild</strong>
 <br />
 ICRA 2024.
@@ -110,7 +136,7 @@ Jie Xu, <strong>Hanbo Zhang&dagger; </strong>, Qingyi Si, Yifeng Li, Xuguang Lan
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+<td width= "160" valign="top"><img src="/assets/gifs/roboflamingo.gif" alt="RoboFlamingo"></td>
 <td width= "640" valign="top"><strong>Vision-Language Foundation Models as Effective Robot Imitators</strong>
 <br />
 ICLR 2024.
@@ -133,7 +159,7 @@ Xinghang Li*, Minghuan Liu*, <strong>Hanbo Zhang</strong>, Cunjun Yu, Jie Xu, Ho
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/invig/invig.png" alt="InViG"></td>
 <td width= "640" valign="top"><strong>Invig: Benchmarking interactive visual grounding with 500k human-robot interactions</strong>
 <br />
 CVPRW 2024.
@@ -155,7 +181,7 @@ CVPRW 2024.
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
-<td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+<td width= "160" valign="top"><img src="/assets/img/work/Lynx/Lynx.png" alt="Lynx"></td>
 <td width= "640" valign="top"><strong>What matters in training a gpt4-style language model with multimodal inputs?</strong>
 <br />
 NAACL 2024.
@@ -219,7 +245,7 @@ RSS 2021.
 <br />
 
 <!-- Pub split line -->
-<table width= "800" >
+<!-- <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/HTRPO/HTRPO.png" alt="htrpo"></td>
 <td width= "640" valign="top"><strong>Hindsight Trust Region Policy Optimization</strong>
@@ -239,11 +265,11 @@ IJCAI 2021.
 </table>
 
 
-<br />
+<br /> -->
 
 
 <!-- Pub split line -->
-<table width= "800" >
+<!-- <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/ROIGD/ROIGD.png" alt="fcgn"></td>
 <td width= "640" valign="top"><strong>ROI-based Robotic Grasp Detection in Object Overlapping Scenes</strong>
@@ -262,11 +288,11 @@ IROS 2019.
 </table>
 
 
-<br />
+<br /> -->
 
 
 <!-- Pub split line -->
-<table width= "800" >
+<!-- <table width= "800" >
 <tr>
 <td width= "160" valign="top" ><img src="/assets/img/work/VMRN_PRL/VMRN.png" alt="vmrn"></td>
 <td width= "640" valign="top"><strong>(Journal)</strong> <strong>Visual Manipulation Relationship Recognition in Object-stacking Scenes</strong>
@@ -292,11 +318,11 @@ Humanoids 2018.
 </table>
 
 
-<br />
+<br /> -->
 
 
 <!-- Pub split line -->
-<table width= "800" >
+<!-- <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/FCGN/FCGN.png" alt="fcgn"></td>
 <td width= "640" valign="top"><strong>(Journal)</strong> <strong>A Real-Time Robotic Grasping Approach With Oriented Anchor Box</strong>
@@ -319,4 +345,4 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 
 </td>
 </tr>
-</table>
+</table> -->
