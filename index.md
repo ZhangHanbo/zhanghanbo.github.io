@@ -186,6 +186,8 @@ CVPRW 2024.
 <br />
 NAACL 2024.
 <br />
+Ranks <a href="https://www.paperdigest.org/2024/09/most-influential-naacl-papers-2024-09/">11th of the most influential papers in NAACL 2024</a>
+<br />
 Yan Zeng*, <strong>Hanbo Zhang*</strong>, Jiani Zheng, Jiangnan Xia, Guoqiang Wei, Yang Wei, Yuchen Zhang, Tao Kong
 <br />
 
@@ -243,6 +245,8 @@ RSS 2021.
 </table>
 
 <br />
+
+
 
 <!-- Pub split line -->
 <!-- <table width= "800" >
