@@ -19,7 +19,7 @@ profile_picture:
 </tr>
 
 <tr>
-<td width= "800" valign="top" align="center">Research Fellow @ <strong>National University of Singapore</strong></td>
+<td width= "800" valign="top" align="center">Research Fellow @ <strong><a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a>, National University of Singapore</strong></td>
 </tr>
 
 <tr>
@@ -94,6 +94,29 @@ profile_picture:
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
+<td width= "160" valign="top"><img src="/assets/img/robovlms.png" alt="RoboVLMs"></td>
+<td width= "640" valign="top"><strong>Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models</strong>
+<br />
+Under Review.
+<br />
+Xinghang Li, Peiyan Li, Minghuan Liu, Dong Wang, Jirong Liu, Bingyi Kang, Xiao Ma, Tao Kong&dagger;, <strong>Hanbo Zhang&dagger; </strong>, Huaping Liu&dagger;
+<br />
+
+<table width= "100" >
+<td width= "50" ><a href="https://arxiv.org/abs/2412.14058">ArXiv</a></td>
+<td width= "50" ><a href="https://robovlms.github.io/">Website</a></td>
+<td width= "50" ><a href="https://github.com/Robot-VLAs/RoboVLMs">Code</a></td>
+</table>
+</td>
+</tr>
+</table>
+
+<br />
+
+
+<!-- Pub split line -->
+<table width= "800" >
+<tr>
 <td width= "160" valign="top"><img src="/assets/gifs/gr2.gif" alt="GR2"></td>
 <td width= "640" valign="top"><strong>GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation</strong>
 <br />
@@ -133,34 +156,12 @@ Jie Xu, <strong>Hanbo Zhang&dagger; </strong>, Qingyi Si, Yifeng Li, Xuguang Lan
 
 <br />
 
-<!-- Pub split line -->
-<table width= "800" >
-<tr>
-<td width= "160" valign="top"><img src="/assets/gifs/roboflamingo.gif" alt="RoboFlamingo"></td>
-<td width= "640" valign="top"><strong>Vision-Language Foundation Models as Effective Robot Imitators</strong>
-<br />
-ICLR 2024.
-<br />
-Xinghang Li*, Minghuan Liu*, <strong>Hanbo Zhang</strong>, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
-<br />
-
-<table width= "100" >
-<td width= "50" ><a href="https://arxiv.org/abs/2311.01378">ArXiv</a></td>
-<td width= "50" ><a href="https://roboflamingo.github.io/">Website</a></td>
-<td width= "50" ><a href="https://github.com/RoboFlamingo/RoboFlamingo">Code</a></td>
-</table>
-</td>
-</tr>
-</table>
-
-<br />
-
 
 <!-- Pub split line -->
 <table width= "800" >
 <tr>
 <td width= "160" valign="top"><img src="/assets/img/work/invig/invig.png" alt="InViG"></td>
-<td width= "640" valign="top"><strong>Invig: Benchmarking interactive visual grounding with 500k human-robot interactions</strong>
+<td width= "640" valign="top"><strong>InViG: Benchmarking interactive visual grounding with 500k human-robot interactions</strong>
 <br />
 CVPRW 2024.
 <br />
@@ -401,6 +402,8 @@ Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, Zhiqiang Tian, Yang Zhan
 
 <h1 class="page-heading">Professional Activities</h1>
 
+<strong>Associate Editor</strong>: <a href="https://www.ieee-ras.org/publications/ra-l">RAL</a>
+<br />
 <strong>Journal Reviewer</strong>: IJRR, AURO, RAL, TPAMI, TASE, TNNLS, TSMC
 <br />
 <strong>Conference Reviewer</strong>: RSS, ICRA, IROS, AAMAS
