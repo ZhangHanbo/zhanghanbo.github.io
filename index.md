@@ -276,12 +276,21 @@ profile_picture:
       flex-direction: column;
       align-items: center;
       text-align: center;
-      gap: 16px;
+      gap: 18px;
       margin-top: 12px;
+    }
+    /* On phones, photo above identity — gives the page a clear human anchor
+       before the wall of text. The clamp() in .profile-pic floors at 140px
+       on desktop; explicitly bump it up here for a more present portrait. */
+    .profile-pic {
+      order: -1;
+      width: 200px;
+      height: 200px;
     }
     .profile-meta { text-align: center; }
     .meta-line { font-size: 0.92em; }
     .prev-list { text-align: left; display: inline-block; padding-left: 18px !important; }
+    .prev-label { text-align: left; display: inline-block; }
     .pub-entry {
       flex-direction: column;
       gap: 12px;
@@ -394,7 +403,7 @@ function toggleLang() {
 <h1 class="page-heading"><span class="lang-en">News</span><span class="lang-zh">近期动态</span></h1>
 <ul class="news-list">
   <li><span class="lang-en"><strong>May 2026</strong> &middot; Joining the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a> as an Assistant Professor.</span><span class="lang-zh"><strong>2026 年 5 月</strong> &middot; 加入<a href="https://www.sii.edu.cn/">上海创智学院</a>，出任助理教授。</span></li>
-  <li><span class="lang-en"><strong>Apr 2026</strong> &middot; Co-organizing the <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> workshop, accepted to <a href="https://roboticsconference.org/">RSS 2026</a>.</span><span class="lang-zh"><strong>2026 年 4 月</strong> &middot; 共同组织的 <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> 研讨会入选 <a href="https://roboticsconference.org/">RSS 2026</a>。</span></li>
+  <li><span class="lang-en"><strong>Apr 2026</strong> &middot; Organizing the <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> workshop, accepted to <a href="https://roboticsconference.org/">RSS 2026</a>.</span><span class="lang-zh"><strong>2026 年 4 月</strong> &middot; 组织的 <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> 研讨会入选 <a href="https://roboticsconference.org/">RSS 2026</a>。</span></li>
   <li><span class="lang-en"><strong>Feb 2026</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> accepted at <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a>.</span><span class="lang-zh"><strong>2026 年 2 月</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> 论文被 <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a> 录用。</span></li>
   <li><span class="lang-en"><strong>Sep 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> and <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> accepted at <a href="https://2025.corl.org/">CoRL 2025</a>; <a href="https://chain-of-action.github.io/">Chain-of-Action</a> accepted at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a>.</span><span class="lang-zh"><strong>2025 年 9 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 与 <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> 被 <a href="https://2025.corl.org/">CoRL 2025</a> 录用；<a href="https://chain-of-action.github.io/">Chain-of-Action</a> 被 <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> 录用。</span></li>
   <li><span class="lang-en"><strong>May 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> paper and code released.</span><span class="lang-zh"><strong>2025 年 5 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 论文与代码发布。</span></li>
