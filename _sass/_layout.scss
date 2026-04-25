@@ -23,10 +23,23 @@
   letter-spacing: -1px;
 
   float: left;
+  max-width: calc(100% - 60px);
 
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  @include media-query($on-mobile) {
+    font-size: 22px;
+    line-height: 48px;
   }
 }
 
@@ -52,39 +65,50 @@
     }
   }
 
-  @include media-query($on-mobile) {
+  @include media-query($on-tablet) {
     position: absolute;
-    top: 12px;
-    right: 24px;
+    top: 10px;
+    right: 18px;
 
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    border-radius: 6px;
     text-align: right;
+    background-color: #ffffff;
 
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
-      height: 26px;
+      width: 44px;
+      height: 36px;
       line-height: 0;
-      padding-top: 4px;
       text-align: center;
-
-      background: #ffffff url($base-url + '/assets/img/menu.png') 6px 4px no-repeat;
+      cursor: pointer;
+      // Pure-CSS hamburger so the nav is functional even without the PNG icon.
+      background:
+        linear-gradient(currentColor, currentColor) center / 18px 2px no-repeat,
+        linear-gradient(currentColor, currentColor) center 12px / 18px 2px no-repeat,
+        linear-gradient(currentColor, currentColor) center 24px / 18px 2px no-repeat,
+        #ffffff;
+      color: $grey-color-dark;
     }
 
     .menu {
       clear: both;
       display: none;
       background-color: #ffffff;
-      min-width: 10em;
-      padding-bottom: 5px;
+      min-width: 12em;
+      padding: 4px 0 8px;
     }
 
     .page-link {
       font-size: 16px;
       display: block;
-      padding: 6px 16px;
+      padding: 10px 18px; // ≥44px touch target
+      line-height: 1.4;
+
+      &:not(:first-child) {
+        margin-left: 0;
+      }
     }
   }
 }
@@ -97,7 +121,7 @@
   padding: $spacing-unit 0;
 
   @include media-query($on-mobile) {
-    padding-top: 10px;
+    padding: ($spacing-unit / 2) 0;
   }
 }
 
@@ -112,28 +136,41 @@
   margin-left: 0;
 }
 
+// CSS Grid drives the column count automatically:
+//   3 cols on desktop, 2 cols on tablet, 1 col on phone.
 .footer-col-wrapper {
   font-size: 15px;
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $spacing-unit;
+
+  @include media-query($on-tablet) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: $spacing-unit / 1.5;
+  }
+
+  @include media-query($on-mobile) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: $spacing-unit / 2;
+  }
 }
 
 .footer-col {
-  float: left;
   margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  min-width: 0; // allow children to wrap inside grid track
 }
 
+// Legacy width helpers kept harmless under the grid.
 .footer-col-1,
 .footer-col-2,
 .footer-col-3 {
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
-  width: calc(33% - (#{$spacing-unit} / 2));
+  width: 100%;
 }
 
 .follow-links > .social-link {
-  flex: 0 50%;
+  flex: 0 1 auto;
+  width: 100%;
 }
 
 .powered-by {
@@ -141,18 +178,19 @@
   color: $grey-color;
 }
 
-@include media-query($on-mobile) {
-  .footer-col {
-    float: none;
-    width: 100%;
-  }
-}
-
 /**
  * Page content
  */
 .page-content {
   padding: $spacing-unit 0;
+
+  @include media-query($on-tablet) {
+    padding: ($spacing-unit * 0.75) 0;
+  }
+
+  @include media-query($on-mobile) {
+    padding: ($spacing-unit / 2) 0;
+  }
 }
 
 .page-heading {

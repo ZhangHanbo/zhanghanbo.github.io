@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-
-<head>
-    <style>
-        .page-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        .profile-block {
-            width: 100%;
-            max-width: 800px; /* Adjust max-width as needed */
-            text-align: center;
-            margin-bottom: 20px; /* Space between profile and content */
-        }
-        .profilepic {
-            width: 150px; /* Adjust size as needed */
-            height: auto;
-            border-radius: 50%;
-        }
-        .content-block {
-            width: 100%;
-            max-width: 800px; /* Adjust max-width as needed */
-        }
-    </style>
-</head>
-<body>
+  <body class="layout-home">
     <div class="page-content">
-        <div class="wrapper">
-            <div class="content-block">
-                {{ content }}
-            </div>
+      <div class="wrapper">
+        <div class="content-block">
+          {{ content }}
         </div>
+      </div>
     </div>
-</body>
+
+    <style>
+      /* === Home layout overrides ===
+         Defined here (scoped via body.layout-home) so phone/tablet/desktop
+         padding is centralised and not duplicated in every page's frontmatter. */
+      body.layout-home .page-content {
+        /* No top padding — the sticky nav must sit flush against the viewport top.
+           Keep bottom padding for breathing room below the last section. */
+        padding: 0 0 24px;
+      }
+      body.layout-home .page-content .wrapper {
+        max-width: 1140px;
+        width: 100%;
+        padding-left: clamp(14px, 4vw, 30px);
+        padding-right: clamp(14px, 4vw, 30px);
+      }
+      body.layout-home .content-block {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        position: relative;
+      }
+      @media (max-width: 900px) {
+        body.layout-home .page-content { padding: 0 0 18px; }
+      }
+      @media (max-width: 600px) {
+        body.layout-home .page-content { padding: 0 0 12px; }
+      }
+    </style>
+  </body>
 </html>

@@ -1,4 +1,13 @@
 /**
+ * Predictable box model everywhere.
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
  * Reset some basic elements
  */
 body,
@@ -25,6 +34,13 @@ figure {
 /**
  * Basic styling
  */
+html {
+  // Allow root font-size to nudge up slightly on tablet+ for legibility,
+  // while keeping layout calculations in $base-font-size everywhere else.
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -33,6 +49,12 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
+  // Long URLs / unbroken strings in CJK should not blow out narrow viewports.
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  // Respect iOS safe-area on notched devices when authors use env() in their styles.
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 /**
@@ -69,6 +91,8 @@ img {
  */
 figure > img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 figcaption {
@@ -101,6 +125,8 @@ h5,
 h6 {
   font-weight: 300;
   font-family: "Futura", sans-serif;
+  // Long unbreakable headings (titles with code, URLs, etc.) should wrap.
+  overflow-wrap: break-word;
 }
 
 h4 {
@@ -113,10 +139,8 @@ h4 {
 a {
   color: $brand-color;
   text-decoration: none;
-  //
-  // &:visited {
-  //   color: darken($brand-color, 15%);
-  // }
+  // Wrap long URLs gracefully inside paragraphs.
+  overflow-wrap: anywhere;
 
   &:hover {
     color: $text-color;
@@ -153,21 +177,51 @@ code {
 
 code {
   padding: 1px 5px;
+  // Inline code with long identifiers/URLs should wrap rather than push the
+  // viewport wider on phones.
+  word-break: break-word;
 }
 
 pre {
   padding: 8px 12px;
-  overflow-x: scroll;
+  // overflow-x: scroll forces a permanent scrollbar on macOS Firefox/Linux.
+  // auto only renders the scrollbar when content actually overflows.
+  overflow-x: auto;
+  // Touch-friendly horizontal scrolling on iOS.
+  -webkit-overflow-scrolling: touch;
 
   > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    word-break: normal;
+    white-space: pre;
+  }
+}
+
+/**
+ * Tables — make any kramdown-generated table responsive without per-post markup.
+ */
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+
+  // On tablet+ render as a normal table so column widths behave naturally;
+  // only fall back to scrollable block on phones.
+  @include media-query-min($on-mobile) {
+    display: table;
   }
 }
 
 /**
  * Wrapper
+ *
+ * Flexible width with a hard cap. The home layout overrides this cap to ~1140px
+ * for its multi-column publication list; the default 700px reading column is
+ * preserved everywhere else (posts, blog index, 404).
  */
 .wrapper {
   max-width: -webkit-calc(700px - (#{$spacing-unit} * 2));
@@ -183,6 +237,21 @@ pre {
     max-width:         calc(800px - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+  }
+
+  @include media-query($on-tablet) {
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+
+  @include media-query($on-mobile) {
+    padding-right: $spacing-unit / 2; // 15px — comfortable on a 360px phone
+    padding-left: $spacing-unit / 2;
+  }
+
+  @include media-query($on-phone) {
+    padding-right: $spacing-unit / 3; // 10px on the smallest phones
+    padding-left: $spacing-unit / 3;
   }
 
   position: relative;
@@ -212,5 +281,28 @@ pre {
     path {
       fill: $grey-color;
     }
+  }
+}
+
+/**
+ * Responsive iframe wrapper — opt-in: wrap any iframe in <div class="video-wrap">.
+ */
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%; // 16:9
+  height: 0;
+  overflow: hidden;
+  margin-bottom: $spacing-unit / 2;
+
+  iframe,
+  embed,
+  object,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 }

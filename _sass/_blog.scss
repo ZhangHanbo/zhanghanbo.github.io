@@ -2,7 +2,7 @@
   .blog-post-date {
     width: 6em;
     color: #777;
-    display: block;
+    display: inline-block;
     float: left;
 
     @include media-query($on-mobile) {
@@ -17,5 +17,9 @@
   .blog-post-title {
     font-size: 100%;
     letter-spacing: normal;
+    // Ensure the title can wrap when it sits next to the floated date.
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 }

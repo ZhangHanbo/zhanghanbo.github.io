@@ -2,11 +2,32 @@
   clear: both;
   overflow: hidden;
   padding-bottom: 3em;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  @include media-query($on-mobile) {
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 2em;
+  }
 }
 
 .work-bubble {
-  float: left;
-  padding-right: 20px;
+  flex: 0 0 100px;
   width: 100px;
   height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  @include media-query($on-mobile) {
+    flex: 0 0 auto;
+    width: 88px;
+    height: 88px;
+  }
+}
+
+.work-text {
+  flex: 1;
+  min-width: 0;
 }

@@ -2,11 +2,12 @@
   margin: 10px auto;
   max-width: 600px;
   text-align: center;
+  padding: 0 $spacing-unit / 2;
 }
 
 h1.not-found-title {
   margin: 30px 0;
-  font-size: 4em;
+  font-size: clamp(2.6em, 7vw, 4em);
   line-height: 1;
   letter-spacing: -1px;
 }

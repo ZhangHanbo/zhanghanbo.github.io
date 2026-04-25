@@ -1,0 +1,748 @@
+---
+layout: home
+profile_picture:
+  src: /assets/img/profile-pic.jpeg
+  alt: website picture
+---
+
+<br />
+<br />
+
+
+<table width= "800" align="center">
+<tr>
+<td width= "800" valign="top" align="center"><img src="/assets/img/profile-pic@2x.png" alt="website picture" width="250" style="margin-bottom: 30px;"></td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><h1 class="page-heading"> <strong>Hanbo Zhang</strong> </h1></td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><span style="font-weight: bold;">Senior Research Fellow</span> @ <a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a>, National University of Singapore</td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><span style="font-weight: bold;">Email</span>: zhanghb <span style="font-weight: bold;">at</span> comp <span style="font-weight: bold;">dot</span> nus <span style="font-weight: bold;">dot</span> edu <span style="font-weight: bold;">dot</span> sg</td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center">
+<a href="https://scholar.google.com/citations?user=1qfEEwsAAAAJ">Google Scholar</a>|
+<a href="https://www.linkedin.com/in/%E7%BF%B0%E5%8D%9A-%E5%BC%A0-2754551a2/">Linked In</a>|
+<a href="https://github.com/ZhangHanbo">GitHub</a>
+</td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center" style="font-size: 18px; padding-bottom: 5px; padding-top: 5px;"> Previously: </td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><span style="font-weight: bold;">Robotics Researcher</span> @ ByteDance Research</td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><span style="font-weight: bold;">PhD Candidate</span> @ Xi'an Jiaotong University</td>
+</tr>
+
+<tr>
+<td width= "800" valign="top" align="center"><span style="font-weight: bold;">Visiting PhD Student</span> @ National University of Singapore</td>
+</tr>
+
+
+<tr>
+<td width= "800" valign="top" halign="center" style="padding-top: 25px" >
+
+  <p style="text-align: justify; line-height: 1.6;">
+    I am currently a Senior Research Fellow at the National University of Singapore, working with Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>. In May 2026, I will join the Shanghai Innovation Institute as an Assistant Professor. Before joining NUS, I was a robotics researcher at ByteDance Research, working with <a href="https://www.taokong.org/">Tao Kong</a>. I finished my PhD in Control Science and Engineering at Xi'an Jiaotong University in 2022, advised by Prof. <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>.
+  </p>
+
+  <h3 style="margin-top: 30px; margin-bottom: 15px; text-align: left; font-weight: bold;">Research</h3>
+
+  <p style="text-align: justify; line-height: 1.6;">
+    My research studies <strong style="color: #CC0000; font-weight: bold;">structuring uncertainty for open-world manipulation</strong> that develops physically-grounded and reliable intelligence for long-horizon robotic tasks in open-world, dynamic environments. We build systems that actively treat uncertainty as a signal for decision-making. We systematically explore how to structure and utilize uncertainty across three primary domains:
+  </p>
+  <ul style="text-align: left; line-height: 1.6;">
+    <li style="margin-bottom: 5px;"><strong style="font-weight: bold;">Uncertainty-aware task specification and planning</strong> that actively resolves language ambiguity via human-robot interaction and quantifies perception uncertainty for robust decision-making.</li>
+    <li style="margin-bottom: 5px;"><strong style="font-weight: bold;">Object-centric scene representation for mobile manipulation</strong> that abstracts unstructured environments into scalable, hybrid symbolic-metric graphs to maintain consistent world beliefs under partial observability.</li>
+    <li style="margin-bottom: 5px;"><strong style="font-weight: bold;">Composable and scalable manipulation skills</strong> that decompose low-level control into object-centric geometric primitives, enabling strong generalization and geometric feasibility via bi-level planning.</li>
+  </ul>
+
+  <p style="text-align: left; margin-top: 25px; line-height: 1.6;">
+    <a href="#" style="color: #2053AB; text-decoration: none;">We are recruiting interns working on human-robot interaction and uncertainty-aware planning for robotics! Drop me an email if you are interested.</a>
+  </p>
+
+</td>
+</tr>
+</table>
+
+<br />
+<br />
+
+<script>
+function toggleNews() {
+  var hiddenNews = document.getElementById('hidden-news');
+  var toggleBtn = document.getElementById('news-toggle-btn');
+  if (hiddenNews.style.display === 'none') {
+    hiddenNews.style.display = 'block';
+    toggleBtn.innerHTML = '[Show Less]';
+  } else {
+    hiddenNews.style.display = 'none';
+    toggleBtn.innerHTML = '[Show More]';
+  }
+}
+</script>
+
+<h1 class="page-heading"> News </h1>
+<ul>
+  <li>[Upcoming] <span style="font-weight: bold;">May 2026</span>: I will join the Shanghai Innovation Institute as an Assistant Professor! </li>
+</ul>
+
+<div id="hidden-news" style="display: none;">
+  <ul>
+    <!-- Example formatting. Add any older news items below here -->
+    <!-- <li><strong>Jan 2023</strong>: Old news example...</li> -->
+  </ul>
+</div>
+<a href="javascript:void(0);" onclick="toggleNews()" id="news-toggle-btn" style="color: #2053AB; text-decoration: none; font-size: 14px; margin-left: 20px;">[Show More]</a>
+
+<br />
+<br />
+
+<script>
+function filterWorks(category) {
+  var links = ['link-selected', 'link-uncertainty', 'link-scene', 'link-lowlevel'];
+  for (var i = 0; i < links.length; i++) {
+    var el = document.getElementById(links[i]);
+    if (el) {
+      el.style.textDecoration = 'none';
+      el.style.fontWeight = 'normal';
+      el.style.color = '#2053AB'; 
+    }
+  }
+  var active = document.getElementById('link-' + category);
+  if (active) {
+    active.style.textDecoration = 'underline';
+    active.style.fontWeight = 'bold';
+    active.style.color = '#000000';
+  }
+
+  var cats = ['selected', 'uncertainty', 'scene', 'lowlevel'];
+  for (var i = 0; i < cats.length; i++) {
+    var lst = document.getElementById('list-' + cats[i]);
+    if (lst) {
+      lst.style.display = 'none';
+    }
+  }
+  var activeLst = document.getElementById('list-' + category);
+  if (activeLst) {
+    activeLst.style.display = 'block';
+  }
+}
+</script>
+
+<style>
+.filter-link {
+  color: #2053AB;
+  cursor: pointer;
+  text-decoration: none;
+}
+.filter-link:hover {
+  text-decoration: underline;
+}
+</style>
+
+<h1 class="page-heading"> 
+  Publications (<a class="filter-link" id="link-selected" onclick="filterWorks('selected')" style="text-decoration: underline; font-weight: bold; color: black;">show selected</a> / <a class="filter-link" id="link-uncertainty" onclick="filterWorks('uncertainty')">uncertainty-aware planning</a> / <a class="filter-link" id="link-scene" onclick="filterWorks('scene')">scene representation</a> / <a class="filter-link" id="link-lowlevel" onclick="filterWorks('lowlevel')">low-level manipulation policies</a> / <a class="filter-link" href="https://scholar.google.com/citations?user=1qfEEwsAAAAJ&hl=zh-CN" target="_blank">full list</a>)
+</h1>
+
+<p>&dagger; Corresponding Author, * Co-first Author</p>
+
+<!-- SELECTED -->
+<div id="list-selected" style="display: block;">
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_UNCERTAINTY_IMAGE]" alt="Uncertainty Estimation"></td>
+  <td width= "640" valign="top"><strong>Estimating Perception Uncertainty for Open-world Language-conditioned Planning</strong>
+  <br />
+  In Submission (Aim for RSS 2026).
+  <br />
+  <strong>Hanbo Zhang</strong>, et al.
+  <br />
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO PAPER DRAFT]">Paper Draft</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/robovlms.png" alt="RoboVLMs"></td>
+  <td width= "640" valign="top"><strong>Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models</strong>
+  <br />
+  Nature Machine Intelligence 2025.
+  <br />
+  Xinghang Li, Peiyan Li, Minghuan Liu, Dong Wang, Jirong Liu, Bingyi Kang, Xiao Ma, Tao Kong&dagger;, <strong>Hanbo Zhang&dagger; </strong>, Huaping Liu&dagger;
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2412.14058">ArXiv</a></td>
+  <td width= "50" ><a href="https://robovlms.github.io/">Website</a></td>
+  <td width= "50" ><a href="https://github.com/Robot-VLAs/RoboVLMs">Code</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_MOBILE_MANIP_IMAGE]" alt="Mobile Manipulation"></td>
+  <td width= "640" valign="top"><strong>Mobile Manipulation in Dynamic Environments / Grasp from Anywhere</strong>
+  <br />
+  In Submission (Aim for RSS 2026).
+  <br />
+  Tianrun Hu, <strong>Hanbo Zhang</strong>, et al.
+  <br />
+
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO PAPER DRAFT]">Paper Draft</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_OBJECT_CENTRIC_IMAGE]" alt="Object-centric Imitation"></td>
+  <td width= "640" valign="top"><strong>Object-centric Imitation Learning</strong>
+  <br />
+  In Submission (Aim for RSS 2026 / RAL).
+  <br />
+  Zhiyi Yuan, <strong>Hanbo Zhang</strong>, et al.
+  <br />
+
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO DOC]">Document Link</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/gifs/tio_gif.gif" alt="TiO"></td>
+  <td width= "640" valign="top"><strong>Towards Unified Interactive Visual Grounding in The Wild</strong>
+  <br />
+  ICRA 2024.
+  <br />
+  Jie Xu, <strong>Hanbo Zhang&dagger; </strong>, Qingyi Si, Yifeng Li, Xuguang Lan, Tao Kong
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2401.16699">ArXiv</a></td>
+  <td width= "50" ><a href="https://jxu124.github.io/TiO">Website</a></td>
+  <td width= "50" ><a href="https://huggingface.co/jxu124/TiO">Code</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/INVIGORATE/INVIGORATE.png" alt="invigorate"></td>
+  <td width= "640" valign="top"><strong>INVIGORATE: Interactive Visual Grounding and Grasping in Clutter</strong>
+  <br />
+  RSS 2021.
+  <br />
+  <strong>Hanbo Zhang*</strong>, Yunfan Lu*, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng.
+  <br />
+  <table width= "150" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2108.11092">ArXiv</a></td>
+  <td width= "50" ><a href="https://github.com/lyf44/invigorate">Code</a></td>
+  <td width= "50" ><a href="https://drive.google.com/file/d/1YpuczATq3yA6FHwA7WoSqQNDGpIKzzfU/view">Demo</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+</div>
+
+<!-- UNCERTAINTY -->
+<div id="list-uncertainty" style="display: none;">
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_UNCERTAINTY_IMAGE]" alt="Uncertainty Estimation"></td>
+  <td width= "640" valign="top"><strong>Estimating Perception Uncertainty for Open-world Language-conditioned Planning</strong>
+  <br />
+  In Submission (Aim for RSS 2026).
+  <br />
+  <strong>Hanbo Zhang</strong>, et al.
+  <br />
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO PAPER DRAFT]">Paper Draft</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/gifs/tio_gif.gif" alt="TiO"></td>
+  <td width= "640" valign="top"><strong>Towards Unified Interactive Visual Grounding in The Wild</strong>
+  <br />
+  ICRA 2024.
+  <br />
+  Jie Xu, <strong>Hanbo Zhang&dagger; </strong>, Qingyi Si, Yifeng Li, Xuguang Lan, Tao Kong
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2401.16699">ArXiv</a></td>
+  <td width= "50" ><a href="https://jxu124.github.io/TiO">Website</a></td>
+  <td width= "50" ><a href="https://huggingface.co/jxu124/TiO">Code</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/invig/invig.png" alt="InViG"></td>
+  <td width= "640" valign="top"><strong>InViG: Benchmarking interactive visual grounding with 500k human-robot interactions</strong>
+  <br />
+  CVPRW 2024.
+  <br />
+  <strong>Hanbo Zhang*</strong>, Jie Xu*, Yuchen Mo, Tao Kong
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2310.12147">ArXiv</a></td>
+  <td width= "50" ><a href="https://openivg.github.io/">Website</a></td>
+  <td width= "50" ><a href="https://github.com/ZhangHanbo/InViG-Dataset-API">Code</a></td>
+  <td width= "50" ><a href="https://openivg.github.io/static/paper/invig_files.zip">Data</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/Lynx/Lynx.png" alt="Lynx"></td>
+  <td width= "640" valign="top"><strong>What matters in training a gpt4-style language model with multimodal inputs?</strong>
+  <br />
+  NAACL 2024.
+  <br />
+  Ranks <a href="https://www.paperdigest.org/2024/09/most-influential-naacl-papers-2024-09/">11th of the most influential papers in NAACL 2024</a>
+  <br />
+  Yan Zeng*, <strong>Hanbo Zhang*</strong>, Jiani Zheng, Jiangnan Xia, Guoqiang Wei, Yang Wei, Yuchen Zhang, Tao Kong
+  <br />
+
+  <table width= "100" >
+  <td width= "50" ><a href="https://aclanthology.org/2024.naacl-long.440/">ArXiv</a></td>
+  <td width= "50" ><a href="https://lynx-llm.github.io/">Website</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Towards Open-World Interactive Disambiguation for Robotic Grasping</strong>
+  <br />
+  ICRA 2023.
+  <br />
+  Yuchen Mo, <strong>Hanbo Zhang</strong>, Tao Kong
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/INVIGORATE/INVIGORATE.png" alt="invigorate"></td>
+  <td width= "640" valign="top"><strong>INVIGORATE: Interactive Visual Grounding and Grasping in Clutter</strong>
+  <br />
+  RSS 2021.
+  <br />
+  <strong>Hanbo Zhang*</strong>, Yunfan Lu*, Cunjun Yu, David Hsu, Xuguang Lan, Nanning Zheng
+  <br />
+  <table width= "150" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2108.11092">ArXiv</a></td>
+  <td width= "50" ><a href="https://github.com/lyf44/invigorate">Code</a></td>
+  <td width= "50" ><a href="https://drive.google.com/file/d/1YpuczATq3yA6FHwA7WoSqQNDGpIKzzfU/view">Demo</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+</div>
+
+<!-- SCENE -->
+<div id="list-scene" style="display: none;">
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_MOBILE_MANIP_IMAGE]" alt="Mobile Manipulation"></td>
+  <td width= "640" valign="top"><strong>Mobile Manipulation in Dynamic Environments / Grasp from Anywhere</strong>
+  <br />
+  In Submission (Aim for RSS 2026).
+  <br />
+  Tianrun Hu, <strong>Hanbo Zhang</strong>, et al.
+  <br />
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO PAPER DRAFT]">Paper Draft</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_SCENE_REP_IMAGE]" alt="Scene Representation"></td>
+  <td width= "640" valign="top"><strong>Scene Representation for Mobile Manipulation</strong>
+  <br />
+  In Submission (Aim for RAL).
+  <br />
+  Bingyang Wang, Hanyi Zhao, <strong>Hanbo Zhang</strong>, et al.
+  <br />
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO DOC]">Document Link</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/REGRAD/REGRAD.png" alt="REGRAD"></td>
+  <td width= "640" valign="top"><strong>REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter</strong>
+  <br />
+  RAL with ICRA presentation, 2022.
+  <br />
+  <strong>Hanbo Zhang*</strong>, Deyu Yang*, Han Wang*, Binglei Zhao, Xuguang Lan, Jishiyu Ding, Nanning Zheng
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2104.14118">ArXiv</a></td>
+  <td width= "50" ><a href="https://bit.ly/3vCUgQq">Data</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Visual Manipulation Relationship Recognition in Object-stacking Scenes</strong>
+  <br />
+  Pattern Recognition Letters 2020.
+  <br />
+  <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Task-oriented Grasping in Object Stacking Scenes with CRF-based Semantic Model</strong>
+  <br />
+  IROS 2019.
+  <br />
+  Chenjie Yang, Xuguang Lan, <strong>Hanbo Zhang</strong>, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes</strong>
+  <br />
+  IROS 2019.
+  <br />
+  <strong>Hanbo Zhang</strong>, Xuguang Lan, Site Bai, Lipeng Wan, Chenjie Yang, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Visual Manipulation Relationship Network for Autonomous Robotics</strong>
+  <br />
+  Humanoids 2018.
+  <br />
+  <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Zhiqiang Tian, Yang Zhang, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Visual Manipulation Relationship Detection with Fully Connected CRFs for Autonomous Robotic Grasp</strong>
+  <br />
+  2018.
+  <br />
+  <strong>Hanbo Zhang</strong>, et al.
+  </td>
+  </tr>
+  </table>
+  <br />
+
+</div>
+
+<!-- LOWLEVEL -->
+<div id="list-lowlevel" style="display: none;">
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_OBJECT_CENTRIC_IMAGE]" alt="Object-centric Imitation"></td>
+  <td width= "640" valign="top"><strong>Object-centric Imitation Learning</strong>
+  <br />
+  In Submission (Aim for RSS 2026 / RAL).
+  <br />
+  Zhiyi Yuan, <strong>Hanbo Zhang</strong>, et al.
+  <br />
+  <table width= "100" >
+  <td width= "100" ><a href="[PLACEHOLDER: LINK TO DOC]">Document Link</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/robovlms.png" alt="RoboVLMs"></td>
+  <td width= "640" valign="top"><strong>Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models</strong>
+  <br />
+  Nature Machine Intelligence 2025.
+  <br />
+  Xinghang Li, Peiyan Li, Minghuan Liu, Dong Wang, Jirong Liu, Bingyi Kang, Xiao Ma, Tao Kong&dagger;, <strong>Hanbo Zhang&dagger; </strong>, Huaping Liu&dagger;
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2412.14058">ArXiv</a></td>
+  <td width= "50" ><a href="https://robovlms.github.io/">Website</a></td>
+  <td width= "50" ><a href="https://github.com/Robot-VLAs/RoboVLMs">Code</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Chain-of-Action: Trajectory Autoregressive Modeling for Robotic Manipulation</strong>
+  <br />
+  NeurIPS 2025.
+  <br />
+  Wenbo Zhang, Tianrun Hu, Yanyuan Qiao, <strong>Hanbo Zhang</strong>, Yuchu Qin, Yang Li, Jiajun Liu, Tao Kong, Lingqiao Liu, Xiao Ma
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/gifs/gr2.gif" alt="GR2"></td>
+  <td width= "640" valign="top"><strong>GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation</strong>
+  <br />
+  Robotics Research Team, ByteDance Research, Tech. Report, 2024.
+  <br />
+  <table width= "100" >
+  <td width= "50" ><a href="https://arxiv.org/abs/2410.06158">ArXiv</a></td>
+  <td width= "50" ><a href="https://gr2-manipulation.github.io/">Website</a></td>
+  <td width= "50" ><a href="https://www.youtube.com/watch?v=FHH0r_QUmyo">Video</a></td>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Vision-Language Foundation Models as Effective Robot Imitators</strong>
+  <br />
+  ICLR 2024.
+  <br />
+  Xinghang Li, Minghuan Liu, <strong>Hanbo Zhang</strong>, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Mimicfunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence</strong>
+  <br />
+  2024.
+  <br />
+  Chao Tang, Anxing Xiao, Yuhong Deng, Tianrun Hu, Wenlong Dong, <strong>Hanbo Zhang</strong>, David Hsu, Hong Zhang
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Robotic Grasping from Classical to Modern: A Survey</strong>
+  <br />
+  2024.
+  <br />
+  <strong>Hanbo Zhang</strong>, Jian Tang, Shiguang Sun, Xuguang Lan
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Hindsight Trust Region Policy Optimization</strong>
+  <br />
+  IJCAI 2021.
+  <br />
+  <strong>Hanbo Zhang</strong>, et al.
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Regnet: Region-based Grasp Network for Single-shot Grasp Detection in Point Clouds</strong>
+  <br />
+  ICRA 2021.
+  <br />
+  Binglei Zhao, <strong>Hanbo Zhang</strong>, Xinwen Zhou, Xuguang Lan, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>ROI-based Robotic Grasp Detection in Object Overlapping Scenes</strong>
+  <br />
+  IROS 2019.
+  <br />
+  <strong>Hanbo Zhang</strong>, Xuguang Lan, Xinwen Zhou, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>A Real-Time Robotic Grasping Approach With Oriented Anchor Box</strong>
+  <br />
+  IEEE TSMC 2019.
+  <br />
+  <strong>Hanbo Zhang</strong>, Xinyu Zhou, Xueliang Lan, Jiasong Li, Zhiqiang Tian, Nanning Zheng
+  </td>
+  </tr>
+  </table>
+  <br />
+
+  <table width= "800" >
+  <tr>
+  <td width= "160" valign="top"><img src="/assets/img/work/[PLACEHOLDER_IMAGE]" alt="Placeholder"></td>
+  <td width= "640" valign="top"><strong>Fully Convolutional Grasp Detection Network with Oriented Anchor Box</strong>
+  <br />
+  IROS 2018.
+  <br />
+  Xinwen Zhou, Xuguang Lan, <strong>Hanbo Zhang</strong>, et al.
+  </td>
+  </tr>
+  </table>
+  <br />
+
+</div>
+
+<br />
+
+<h1 class="page-heading">Mentorship</h1>
+
+<table width="1000" align="center" cellspacing="5">
+  <tr>
+    <td align="left">
+      <a href="https://best99317.github.io/SiteBai/">Site Bai</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">
+      <a href="https://scholar.google.com/citations?user=laOWyTQAAAAJ">Xinghang Li</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+  </tr>
+  <tr>
+    <td align="left">
+      <a href="https://scholar.google.com.hk/citations?user=RPw-LX8AAAAJ&hl=zh-CN">Chengzhong Ma</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">
+      <a href="https://scholar.google.ca/citations?user=s0KcXmgAAAAJ&hl=en">Shiguang Sun</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+  </tr>
+  <tr>
+    <td align="left">
+      <a href="https://www.researchgate.net/scientific-contributions/Han-Wang-2189056994">Han Wang</a>
+    </td>
+    <td align="left">Ph.D. Candidate</td>
+    <td align="left">Jie Xu</td>
+    <td align="left">ByteDance, Beijing</td>
+  </tr>
+  <tr>
+    <td width="150" align="left">
+      <a href="https://www.researchgate.net/scientific-contributions/Chenjie-Yang-2147422548">Chenjie Yang</a>
+    </td>
+    <td width="350" align="left">ByteDance, Shanghai</td>
+    <td align="left">Deyu Yang</td>
+    <td align="left">SenseTime, Shanghai</td>
+  </tr>
+  <tr>
+    <td width="150" align="left">
+      <a href="https://scholar.google.com/citations?user=gAY-cIQAAAAJ&hl=zh-CN">Binglei Zhao</a>
+    </td>
+    <td width="350" align="left">JD, Beijing</td>
+  </tr>
+</table>
+<br />
+
+<h1 class="page-heading">Professional Activities</h1>
+
+<strong>Associate Editor</strong>: <a href="https://www.ieee-ras.org/publications/ra-l">RAL</a>
+<br />
+<strong>Journal Reviewer</strong>: IJRR, AURO, RAL, TPAMI, TASE, TNNLS, TSMC
+<br />
+<strong>Conference Reviewer</strong>: RSS, ICRA, IROS, AAMAS

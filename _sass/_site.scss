@@ -2,11 +2,14 @@
   float: right;
   border: #ccc 1px solid;
   margin-left: 20px;
+  max-width: 100%;
+  height: auto;
 
   @include media-query($on-mobile) {
     float: none;
-    margin-bottom: 20px;
-    margin-left: 0px;
+    display: block;
+    margin: 0 auto 20px;
+    margin-left: auto;
   }
 }
 
@@ -30,16 +33,83 @@
       line-height: 16px;
       margin-top: 6.5px;
       margin-bottom: 10px;
+      // Tap target for icon links.
+      min-height: 24px;
 
       a {
         margin-left: 6px;
-        word-break: break-all;
+        word-break: break-word;
+        // Don't let an unbroken email address blow out the column.
+        overflow-wrap: anywhere;
+      }
+
+      img {
+        flex: 0 0 auto;
       }
     }
 
     @include media-query($on-mobile) {
       font-size: 14px;
       line-height: 38px;
+
+      .social-link {
+        line-height: 22px;
+        margin-bottom: 6px;
+      }
+    }
+  }
+}
+
+/**
+ * Legacy publication tables in `_includes/list-*.html` use `<table width="800">`
+ * with a fixed 160px image column. They're hidden by default but may be revived
+ * via JS toggles. This shim makes them reflow on phones/tablets without
+ * rewriting each HTML include.
+ */
+#list-grasp,
+#list-lowlevel,
+#list-scene,
+#list-uncertainty {
+  table {
+    width: 100% !important;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+  }
+
+  td {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  td img {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  // Convert each table to a stacked card on phones.
+  @include media-query($on-mobile) {
+    table,
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: 100% !important;
+    }
+
+    td:first-child {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    td img {
+      width: 100% !important;
+      max-width: 320px;
+    }
+
+    td[style*="padding-left"] {
+      padding-left: 0 !important;
     }
   }
 }
@@ -54,11 +124,16 @@
   padding: 24px;
   text-align: center;
 
+  // On phones the hover-positioned tooltip is impractical; if it's ever
+  // surfaced via tap, keep it inside the viewport.
+  max-width: calc(100vw - 24px);
+
   p {
     font-size: 11px;
     line-height: 16px;
     font-family: Helvetica, sans-serif;
     width: 170px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 14px;
   }
@@ -67,5 +142,6 @@
     width: 160px;
     height: 160px;
     border: none;
+    max-width: 100%;
   }
 }
