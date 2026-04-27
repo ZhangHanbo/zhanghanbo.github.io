@@ -83,21 +83,50 @@ profile_picture:
   /* Default link color is plain dark text — most hyperlinks on this page are
      not "highlighted". Specific elements opt back into the brand blue below
      (role affiliations, paper titles, arXiv/Code chips). */
-  .content-block a { color: #111; text-decoration: none; overflow-wrap: anywhere; }
-  .content-block a:hover { color: #2053AB; text-decoration: underline; }
-  /* Highlighted accent links — only these stay colored. */
+  /* Every link gets a soft, low-contrast gray underline so it's discoverable
+     without visually competing with the prose. The underline darkens slightly
+     and the text picks up brand-blue on hover. */
+  .content-block a {
+    color: #111;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.18);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    overflow-wrap: anywhere;
+  }
+  .content-block a:hover {
+    color: #2053AB;
+    text-decoration-color: rgba(32, 83, 171, 0.5);
+  }
+  /* Highlighted accent links — only these stay colored. All use the same
+     brand blue (#2053AB) and are intentionally NOT underlined; the color
+     itself is the affordance. */
   .content-block .role-affil a,
   .content-block .pub-title,
   .content-block .pub-links a,
-  .content-block .social-line a { color: #2053AB !important; }
+  .content-block .social-line a {
+    color: #2053AB !important;
+    text-decoration: none;
+  }
+  /* Hover affordance for blue accent links: a subtle brand-blue underline
+     appears only when the cursor is on the link. `!important` is needed on
+     `text-decoration` to override the inline `text-decoration: none` on the
+     Tencent Docs Form link. */
   .content-block .role-affil a:hover,
   .content-block .pub-title:hover,
   .content-block .pub-links a:hover,
-  .content-block .social-line a:hover { color: #143a85 !important; }
-  /* Social row gets the full bold+underline treatment. */
+  .content-block .social-line a:hover,
+  .content-block .role-incoming a:hover,
+  .content-block a[href*="docs.qq.com"]:hover {
+    color: #2053AB !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba(32, 83, 171, 0.6) !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  /* Social row keeps the bold treatment (no underline). */
   .content-block .social-line a {
     font-weight: 600;
-    text-decoration: underline;
   }
   .content-block strong { font-weight: 600; color: #111; }
 
@@ -170,12 +199,16 @@ profile_picture:
   .role-incoming {
     font-size: 0.97em;
     font-weight: 600;
-    color: #5a3aa3; /* a quiet plum so the upcoming role reads as a "next chapter" badge */
+    color: #2053AB; /* matches the brand-blue used for every other accent. */
     margin: 0 0 12px 0 !important;
     letter-spacing: 0.005em;
   }
-  .role-incoming a { color: inherit !important; }
-  .role-incoming a:hover { color: #2053AB !important; }
+  .role-incoming a {
+    color: inherit !important;
+    text-decoration: none;
+  }
+  /* The hover state for `.role-incoming a` is consolidated above with the
+     other blue accent links (see the `.content-block …:hover` rule). */
   .meta-line { font-size: 0.97em; color: #444; margin-bottom: 4px !important; overflow-wrap: anywhere; }
   .meta-line em { font-style: normal; color: #999; }
   .prev-label {
@@ -254,7 +287,6 @@ profile_picture:
     margin-bottom: 6px;
     overflow-wrap: break-word;
   }
-  .pub-title:hover { text-decoration: underline; }
   .pub-authors { color: #333; font-size: 0.95em; margin-bottom: 4px; line-height: 1.5; overflow-wrap: break-word; }
   .pub-authors strong { color: #000; font-weight: 600; }
   .pub-venue { font-style: italic; font-weight: 600; color: #555; font-size: 0.94em; margin-bottom: 6px; }
@@ -360,19 +392,19 @@ profile_picture:
 
 <hr class="section-divider">
 
-<h1 id="join-us" class="page-heading"><span class="lang-en">Join My Group</span><span class="lang-zh">加入我的团队</span></h1>
+<h1 id="join-us" class="page-heading"><span class="lang-en">Join Our Group</span><span class="lang-zh">加入我们的团队</span></h1>
 
-<p class="lang-en">I will start my group at <strong><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></strong> in May 2026. I am recruiting <strong>PhD students</strong> for the Fall 2026 or Spring 2027 intake, and <strong>research interns</strong> (remote or in person). I am also hiring a <strong>research engineer</strong>, with a competitive offer for the right candidate.</p>
-<p class="lang-zh">2026 年 5 月，我将在 <strong><a href="https://www.sii.edu.cn/">上海创智学院</a></strong> 组建研究组。现招收 <strong>博士生</strong>（2026 秋季或 2027 春季入学），以及 <strong>研究实习生</strong>（线上或线下均可）。同时招聘 <strong>研究工程师</strong>，为合适人选提供具有竞争力的待遇。</p>
+<p class="lang-en">Our group launches at <strong><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></strong> in May 2026. We are recruiting <strong>PhD students</strong> for the Fall 2026 or Spring 2027 intake, and <strong>research interns</strong> (remote or in person). We are also hiring a <strong>research engineer</strong>, with a competitive offer for the right candidate.</p>
+<p class="lang-zh">2026 年 5 月，我们将在 <strong><a href="https://www.sii.edu.cn/">上海创智学院</a></strong> 组建研究组。现招收 <strong>博士生</strong>（2026 秋季或 2027 春季入学），以及 <strong>研究实习生</strong>（线上或线下均可）。同时招聘 <strong>研究工程师</strong>，为合适人选提供具有竞争力的待遇。</p>
 
-<p class="lang-en"><strong>Research topics.</strong> I work on uncertainty-aware task specification and planning, object-centric scene representation for mobile manipulation, and composable, scalable manipulation skills. The broader theme is <em>structuring uncertainty for open-world manipulation</em>.</p>
-<p class="lang-zh"><strong>研究方向。</strong> 我的研究聚焦于面向不确定性的任务表达与规划，面向移动操纵的物体中心场景表征，以及可组合、可扩展的操纵技能。整体主题是 <em>为开放世界操纵建模不确定性</em>。</p>
+<p class="lang-en"><strong>Research topics.</strong> We work on uncertainty-aware task specification and planning, object-centric scene representation for mobile manipulation, and composable, scalable manipulation skills. The broader theme is <em>structuring uncertainty for open-world manipulation</em>.</p>
+<p class="lang-zh"><strong>研究方向。</strong> 我们聚焦于面向不确定性的任务表达与规划，面向移动操纵的物体中心场景表征，以及可组合、可扩展的操纵技能。整体主题是 <em>为开放世界操纵建模不确定性</em>。</p>
 
-<p class="lang-en"><strong>Who I look for.</strong> Self-motivated, with strong instincts for real-world robotics research: physical robots, contact, planning, mobility, manipulation policies, the parts LLMs cannot do for you. We <strong>ONLY</strong> focus on algorithms and systems that ground in hardware, not conceptually or virtually. Independent thinking that may comfortably disagree with mine is 100% encouraged.</p>
+<p class="lang-en"><strong>Who we look for.</strong> Self-motivated, with strong instincts for real-world robotics research: physical robots, contact, planning, mobility, manipulation policies, the parts LLMs cannot do for you. We <strong>ONLY</strong> focus on algorithms and systems that ground in hardware, not conceptually or virtually. Independent thinking that may comfortably disagree with ours is 100% encouraged.</p>
 <p class="lang-zh"><strong>期望的学生：</strong> 自驱，独立，对真实世界机器人研究有强烈兴趣， 包括但不限于物理机器人、接触动力学、规划、移动性、操作技能学习。我们只关注真正能落到硬件上的算法与系统，而不是局限于概念上的算法创新或仿真。愿意在学术问题上和所有人坦诚讨论甚至辩论。独立思考。</p>
 
-<p class="lang-en">Please fill in this <a href="https://docs.qq.com/form/page/DUE10d0tCVVBkSEpN" style="color: #2053AB; font-weight: 600; text-decoration: underline;">Form</a>, and email me your CV, the problem you most want to work on, and one or two representative papers or projects.</p>
-<p class="lang-zh">请填写 <a href="https://docs.qq.com/form/page/DUE10d0tCVVBkSEpN" style="color: #2053AB; font-weight: 600; text-decoration: underline;">该表格</a>，并发送邮件附上你的 CV、最想研究的问题，以及一到两个代表工作或项目。</p>
+<p class="lang-en">Please fill in this <a href="https://docs.qq.com/form/page/DUE10d0tCVVBkSEpN" style="color: #2053AB; font-weight: 600; text-decoration: none;">Form</a>, and email me your CV, the problem you most want to work on, and one or two representative papers or projects.</p>
+<p class="lang-zh">请填写 <a href="https://docs.qq.com/form/page/DUE10d0tCVVBkSEpN" style="color: #2053AB; font-weight: 600; text-decoration: none;">该表格</a>，并发送邮件附上你的 CV、最想研究的问题，以及一到两个代表工作或项目。</p>
 
 <hr class="section-divider">
 
@@ -403,6 +435,7 @@ function toggleLang() {
 <h1 class="page-heading"><span class="lang-en">News</span><span class="lang-zh">近期动态</span></h1>
 <ul class="news-list">
   <li><span class="lang-en"><strong>May 2026</strong> &middot; Joining the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a> as an Assistant Professor.</span><span class="lang-zh"><strong>2026 年 5 月</strong> &middot; 加入<a href="https://www.sii.edu.cn/">上海创智学院</a>，出任助理教授。</span></li>
+  <li><span class="lang-en"><strong>Apr 2026</strong> &middot; Hypothesis-driven Model Expansion accepted at <a href="https://roboticsconference.org/">RSS 2026</a>.</span><span class="lang-zh"><strong>2026 年 4 月</strong> &middot; Hypothesis-driven Model Expansion 论文被 <a href="https://roboticsconference.org/">RSS 2026</a> 录用。</span></li>
   <li><span class="lang-en"><strong>Apr 2026</strong> &middot; Organizing the <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> workshop, accepted to <a href="https://roboticsconference.org/">RSS 2026</a>.</span><span class="lang-zh"><strong>2026 年 4 月</strong> &middot; 组织的 <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> 研讨会入选 <a href="https://roboticsconference.org/">RSS 2026</a>。</span></li>
   <li><span class="lang-en"><strong>Feb 2026</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> accepted at <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a>.</span><span class="lang-zh"><strong>2026 年 2 月</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> 论文被 <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a> 录用。</span></li>
   <li><span class="lang-en"><strong>Sep 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> and <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> accepted at <a href="https://2025.corl.org/">CoRL 2025</a>; <a href="https://chain-of-action.github.io/">Chain-of-Action</a> accepted at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a>.</span><span class="lang-zh"><strong>2025 年 9 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 与 <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> 被 <a href="https://2025.corl.org/">CoRL 2025</a> 录用；<a href="https://chain-of-action.github.io/">Chain-of-Action</a> 被 <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> 录用。</span></li>
