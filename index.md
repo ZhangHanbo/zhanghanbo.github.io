@@ -293,6 +293,17 @@ profile_picture:
   .pub-links { font-size: 0.92em; line-height: 1.7; }
   .pub-links a { color: #2053AB; }
   .pub-links .sep { color: #bbb; margin: 0 2px; }
+  /* GitHub star badge (shields.io) sits inline after a [Code] link. Sized in
+     em so it tracks the .pub-links font on every breakpoint; nudged down a
+     hair so the pill's optical center aligns with the bracket text. */
+  .pub-links img.gh-stars {
+    height: 1.25em;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+  }
 
   /* === Tablet (≤900px): keep row layout but tighten the teaser column. === */
   @media (max-width: 900px) {
@@ -363,9 +374,8 @@ profile_picture:
 <div id="home" class="profile-header">
   <div class="profile-meta">
     <h1 class="name-heading"><span class="lang-en">Hanbo Zhang</span><span class="lang-zh">张翰博</span></h1>
-    <p class="role-now"><span class="lang-en">Senior Research Fellow</span><span class="lang-zh">高级研究员</span></p>
-    <p class="role-affil"><span class="lang-en"><a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a>, <a href="https://www.nus.edu.sg/">National University of Singapore</a></span><span class="lang-zh"><a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a> 实验室，<a href="https://www.nus.edu.sg/">新加坡国立大学</a></span></p>
-    <p class="role-incoming"><span class="lang-en">Incoming Assistant Professor of <a href="https://www.sii.edu.cn/">SII</a> (May 2026)</span><span class="lang-zh"><a href="https://www.sii.edu.cn/">上海创智学院</a> 助理教授（即将到任，2026 年 5 月）</span></p>
+    <p class="role-now"><span class="lang-en">Assistant Professor</span><span class="lang-zh">助理教授</span></p>
+    <p class="role-affil"><span class="lang-en"><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></span><span class="lang-zh"><a href="https://www.sii.edu.cn/">上海创智学院</a></span></p>
     <p class="meta-line"><span class="lang-en"><strong>Email</strong>:</span><span class="lang-zh"><strong>邮箱</strong>：</span> zhanghb <em>at</em> comp <em>dot</em> nus <em>dot</em> edu <em>dot</em> sg</p>
     <p class="meta-line social-line">
       <a href="https://scholar.google.com/citations?user=1qfEEwsAAAAJ">Google Scholar</a> &middot;
@@ -374,6 +384,7 @@ profile_picture:
     </p>
     <p class="prev-label"><span class="lang-en"><strong>Previously:</strong></span><span class="lang-zh"><strong>过往经历：</strong></span></p>
     <ul class="prev-list">
+      <li><span class="lang-en">Senior Research Fellow, <a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a>, <a href="https://www.nus.edu.sg/">National University of Singapore</a> (2024&ndash;2026)</span><span class="lang-zh">高级研究员，<a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a> 实验室，<a href="https://www.nus.edu.sg/">新加坡国立大学</a>（2024&ndash;2026）</span></li>
       <li><span class="lang-en">Robotics Researcher, <a href="https://www.bytedance.com/en/">ByteDance Research</a> (2022&ndash;2024)</span><span class="lang-zh"><a href="https://www.bytedance.com/">字节跳动研究院</a> 机器人研究员（2022&ndash;2024）</span></li>
       <li><span class="lang-en">Visiting PhD, <a href="https://www.nus.edu.sg/">National University of Singapore</a></span><span class="lang-zh">访问博士生，<a href="https://www.nus.edu.sg/">新加坡国立大学</a></span></li>
       <li><span class="lang-en">PhD, <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> (2017&ndash;2022)</span><span class="lang-zh">博士，<a href="https://www.xjtu.edu.cn/">西安交通大学</a>（2017&ndash;2022）</span></li>
@@ -383,8 +394,8 @@ profile_picture:
 </div>
 
 <div class="profile-intro">
-  <p class="lang-en">I am a Senior Research Fellow at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, working with Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>. Starting <strong>May 2026</strong>, I will join the <strong><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></strong> as an Assistant Professor. Before <strong>NUS</strong>, I was a robotics researcher at <a href="https://www.bytedance.com/en/">ByteDance Research</a> with <a href="https://www.taokong.org/">Tao Kong</a>; I completed my PhD at <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> in 2022, advised by Prof. <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>.</p>
-  <p class="lang-zh">目前在<a href="https://www.nus.edu.sg/">新加坡国立大学</a>（<strong>NUS</strong>）担任高级研究员，与 <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a> 教授合作。<strong>2026 年 5 月起</strong>，将加入 <strong><a href="https://www.sii.edu.cn/">上海创智学院</a></strong> 担任助理教授。加入 <strong>NUS</strong> 前，曾在<a href="https://www.bytedance.com/">字节跳动研究院</a>担任机器人研究员，与 <a href="https://www.taokong.org/">Tao Kong</a> 博士合作；2022 年于<a href="https://www.xjtu.edu.cn/">西安交通大学</a>取得博士学位，导师为 <a href="http://gr.xjtu.edu.cn/web/zeuslan">兰旭光</a> 教授。</p>
+  <p class="lang-en">I am an Assistant Professor at the <strong><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></strong>. Before joining <strong>SII</strong>, I was a Senior Research Fellow at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, working with Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a>; earlier, I was a robotics researcher at <a href="https://www.bytedance.com/en/">ByteDance Research</a> with <a href="https://www.taokong.org/">Tao Kong</a>. I completed my PhD at <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> in 2022, advised by Prof. <a href="http://gr.xjtu.edu.cn/web/zeuslan">Xuguang Lan</a>.</p>
+  <p class="lang-zh">现任 <strong><a href="https://www.sii.edu.cn/">上海创智学院</a></strong> 助理教授。在此之前，曾在<a href="https://www.nus.edu.sg/">新加坡国立大学</a>（<strong>NUS</strong>）担任高级研究员，与 <a href="https://www.comp.nus.edu.sg/~dyhsu/">David Hsu</a> 教授合作；更早曾在<a href="https://www.bytedance.com/">字节跳动研究院</a>担任机器人研究员，与 <a href="https://www.taokong.org/">Tao Kong</a> 博士合作。2022 年于<a href="https://www.xjtu.edu.cn/">西安交通大学</a>取得博士学位，导师为 <a href="http://gr.xjtu.edu.cn/web/zeuslan">兰旭光</a> 教授。</p>
 
   <p class="lang-en">My research studies <strong>structuring uncertainty for open-world manipulation</strong>, developing physically-grounded and reliable intelligence for long-horizon robotic tasks in dynamic environments.</p>
   <p class="lang-zh">我的研究聚焦于 <strong>面向开放世界操纵的不确定性建模</strong>，致力于为动态环境中的长时程机器人任务构建具有物理基础、可靠可信的智能系统。</p>
