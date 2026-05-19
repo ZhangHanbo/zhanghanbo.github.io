@@ -376,7 +376,7 @@ profile_picture:
     <h1 class="name-heading"><span class="lang-en">Hanbo Zhang</span><span class="lang-zh">张翰博</span></h1>
     <p class="role-now"><span class="lang-en">Assistant Professor</span><span class="lang-zh">助理教授</span></p>
     <p class="role-affil"><span class="lang-en"><a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a></span><span class="lang-zh"><a href="https://www.sii.edu.cn/">上海创智学院</a></span></p>
-    <p class="meta-line"><span class="lang-en"><strong>Email</strong>:</span><span class="lang-zh"><strong>邮箱</strong>：</span> zhanghb <em>at</em> comp <em>dot</em> nus <em>dot</em> edu <em>dot</em> sg</p>
+    <p class="meta-line"><span class="lang-en"><strong>Email</strong>:</span><span class="lang-zh"><strong>邮箱</strong>：</span> zhanghanbo <em>at</em> sii <em>dot</em> edu <em>dot</em> cn</p>
     <p class="meta-line social-line">
       <a href="https://scholar.google.com/citations?user=1qfEEwsAAAAJ">Google Scholar</a> &middot;
       <a href="https://www.linkedin.com/in/%E7%BF%B0%E5%8D%9A-%E5%BC%A0-2754551a2/">LinkedIn</a> &middot;
