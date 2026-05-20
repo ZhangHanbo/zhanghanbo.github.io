@@ -233,6 +233,20 @@ profile_picture:
      Innovation Institute and key dates. */
   .profile-intro a { font-weight: 600; }
 
+  /* === Open-hours callout (Join Us) ===
+     Brand-blue left border + soft tint. Visually anchored to the page palette
+     so the friendly invite stands out without competing with the recruiting
+     pitch above. */
+  .office-hours {
+    margin: 18px 0;
+    padding: 12px 16px;
+    border-left: 3px solid #2053AB;
+    background: rgba(32, 83, 171, 0.06);
+    border-radius: 0 6px 6px 0;
+    line-height: 1.6;
+  }
+  .office-hours strong { color: #2053AB; }
+
   /* === Section dividers === */
   .section-divider {
     border: none;
@@ -399,6 +413,8 @@ profile_picture:
 
   <p class="lang-en">My research studies <strong>structuring uncertainty for open-world manipulation</strong>, developing physically-grounded and reliable intelligence for long-horizon robotic tasks in dynamic environments.</p>
   <p class="lang-zh">我的研究聚焦于 <strong>面向开放世界操纵的不确定性建模</strong>，致力于为动态环境中的长时程机器人任务构建具有物理基础、可靠可信的智能系统。</p>
+
+  <p class="office-hours"><span class="lang-en"><strong>Open hours for students.</strong> 2 hours every week (20 mins per slot) for a casual chat: research, future plans, brainstorming, honest criticism of me, or anything in your mind. I am open to all of it; just send me an email.</span><span class="lang-zh"><strong>面向学生的开放时间。</strong>每周 2 小时（每位 20 分钟）自由交流：研究、未来规划、头脑风暴、对我的坦诚批评，或任何你心里想聊的话题。我对一切持开放态度，直接发邮件给我即可。</span></p>
 </div>
 
 <hr class="section-divider">
@@ -450,11 +466,11 @@ function toggleLang() {
   <li><span class="lang-en"><strong>Apr 2026</strong> &middot; Organizing the <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> workshop, accepted to <a href="https://roboticsconference.org/">RSS 2026</a>.</span><span class="lang-zh"><strong>2026 年 4 月</strong> &middot; 组织的 <a href="https://adacompnus.github.io/human-centric-mobile-manipulation/">Human-centric Mobile Manipulation</a> 研讨会入选 <a href="https://roboticsconference.org/">RSS 2026</a>。</span></li>
   <li><span class="lang-en"><strong>Feb 2026</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> accepted at <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a>.</span><span class="lang-zh"><strong>2026 年 2 月</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> 论文被 <a href="https://www.nature.com/natmachintell/"><em>Nature Machine Intelligence</em></a> 录用。</span></li>
   <li><span class="lang-en"><strong>Sep 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> and <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> accepted at <a href="https://2025.corl.org/">CoRL 2025</a>; <a href="https://chain-of-action.github.io/">Chain-of-Action</a> accepted at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a>.</span><span class="lang-zh"><strong>2025 年 9 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 与 <a href="https://sites.google.com/view/mimicfunc">MimicFunc</a> 被 <a href="https://2025.corl.org/">CoRL 2025</a> 录用；<a href="https://chain-of-action.github.io/">Chain-of-Action</a> 被 <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> 录用。</span></li>
-  <li><span class="lang-en"><strong>May 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> paper and code released.</span><span class="lang-zh"><strong>2025 年 5 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 论文与代码发布。</span></li>
-  <li><span class="lang-en"><strong>Dec 2024</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> paper and code released.</span><span class="lang-zh"><strong>2024 年 12 月</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> 论文与代码发布。</span></li>
 </ul>
 <div id="hidden-news" style="display: none;">
   <ul>
+    <li><span class="lang-en"><strong>May 2025</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> paper and code released.</span><span class="lang-zh"><strong>2025 年 5 月</strong> &middot; <a href="https://github.com/zhangj1an/ApBot">ApBot</a> 论文与代码发布。</span></li>
+    <li><span class="lang-en"><strong>Dec 2024</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> paper and code released.</span><span class="lang-zh"><strong>2024 年 12 月</strong> &middot; <a href="https://robovlms.github.io/">RoboVLMs</a> 论文与代码发布。</span></li>
     <li><span class="lang-en"><strong>Oct 2024</strong> &middot; <a href="https://gr2-manipulation.github.io/">GR-2</a> technical report released.</span><span class="lang-zh"><strong>2024 年 10 月</strong> &middot; <a href="https://gr2-manipulation.github.io/">GR-2</a> 技术报告发布。</span></li>
     <li><span class="lang-en"><strong>Jan 2024</strong> &middot; <a href="https://roboflamingo.github.io/">RoboFlamingo</a> accepted at <a href="https://iclr.cc/Conferences/2024">ICLR 2024</a>; <a href="https://jxu124.github.io/TiO">TiO</a> accepted at <a href="https://2024.ieee-icra.org/">ICRA 2024</a>; <a href="https://lynx-llm.github.io/">Lynx</a> accepted at <a href="https://2024.naacl.org/">NAACL 2024</a>.</span><span class="lang-zh"><strong>2024 年 1 月</strong> &middot; <a href="https://roboflamingo.github.io/">RoboFlamingo</a> 被 <a href="https://iclr.cc/Conferences/2024">ICLR 2024</a> 录用；<a href="https://jxu124.github.io/TiO">TiO</a> 被 <a href="https://2024.ieee-icra.org/">ICRA 2024</a> 录用；<a href="https://lynx-llm.github.io/">Lynx</a> 被 <a href="https://2024.naacl.org/">NAACL 2024</a> 录用。</span></li>
   </ul>
