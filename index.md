@@ -398,7 +398,7 @@ profile_picture:
     </p>
     <p class="prev-label"><span class="lang-en"><strong>Previously:</strong></span><span class="lang-zh"><strong>过往经历：</strong></span></p>
     <ul class="prev-list">
-      <li><span class="lang-en">Senior Research Fellow, <a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a>, <a href="https://www.nus.edu.sg/">National University of Singapore</a> (2024&ndash;2026)</span><span class="lang-zh">高级研究员，<a href="https://adacomp.comp.nus.edu.sg/">AdaComp</a> 实验室，<a href="https://www.nus.edu.sg/">新加坡国立大学</a>（2024&ndash;2026）</span></li>
+      <li><span class="lang-en">Senior Research Fellow, <a href="https://adacomp.org/">AdaComp</a>, <a href="https://www.nus.edu.sg/">National University of Singapore</a> (2024&ndash;2026)</span><span class="lang-zh">高级研究员，<a href="https://adacomp.org/">AdaComp</a> 实验室，<a href="https://www.nus.edu.sg/">新加坡国立大学</a>（2024&ndash;2026）</span></li>
       <li><span class="lang-en">Robotics Researcher, <a href="https://www.bytedance.com/en/">ByteDance Research</a> (2022&ndash;2024)</span><span class="lang-zh"><a href="https://www.bytedance.com/">字节跳动研究院</a> 机器人研究员（2022&ndash;2024）</span></li>
       <li><span class="lang-en">Visiting PhD, <a href="https://www.nus.edu.sg/">National University of Singapore</a></span><span class="lang-zh">访问博士生，<a href="https://www.nus.edu.sg/">新加坡国立大学</a></span></li>
       <li><span class="lang-en">PhD, <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> (2017&ndash;2022)</span><span class="lang-zh">博士，<a href="https://www.xjtu.edu.cn/">西安交通大学</a>（2017&ndash;2022）</span></li>
