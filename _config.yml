@@ -1,19 +1,19 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Zhang Hanbo @ AdaComp, NUS.
+title: Hanbo Zhang | Shanghai Innovation Institute
 description: >- # this means to ignore newlines until "baseurl:"
-  Zhang Hanbo's homepage.
+  Hanbo Zhang is an Assistant Professor at Shanghai Innovation Institute working on long-horizon mobile manipulation, robot foundation models, and uncertainty-aware perception and planning.
 baseurl: "" # the subpath of the site
 url: "https://zhanghanbo.github.io" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpeg
+og_image: /assets/img/zhanghanbo.jpg
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: zhanghanbo163_AT_outlook.com
-      link: mailto:zhanghanbo163_AT_outlook.com
+      value: zhanghanbo@sii.edu.cn
+      link: mailto:zhanghanbo@sii.edu.cn
 #    - name: WeChat
 #      value: YourWeChatUsername
 #      link: "#"
@@ -45,6 +45,7 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - materials/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
