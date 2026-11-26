@@ -34,17 +34,25 @@ footer:
 markdown: kramdown
 sass:
     style: :compressed
-plugins:
-  - jekyll-feed
 
 # Excluded items
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - feed.xml
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - CHANGELOG.md
+  - bay_jekyll_theme.gemspec
+  - index.md.bak
+  - screenshot.png
+  - launch.sh
+  - setup.sh
+  - assets/img/blog/
+  - assets/img/content/post-example/
+  - assets/pdfs/cv-en.pdf
+  - assets/pdfs/cv-cn.pdf
   - materials/
   - vendor/bundle/
   - vendor/cache/
